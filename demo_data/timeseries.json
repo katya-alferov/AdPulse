@@ -113,79 +113,114 @@
  },
  {
   "window_start": "2026-11-10T22:04:00Z",
-  "impressions": 2356,
+  "impressions": 2360,
   "clicks": 76,
   "conversions": 7,
-  "ctr_pct": 3.23
+  "ctr_pct": 3.22
  },
  {
   "window_start": "2026-11-10T22:05:00Z",
-  "impressions": 2363,
+  "impressions": 2366,
   "clicks": 93,
   "conversions": 6,
-  "ctr_pct": 3.94
+  "ctr_pct": 3.93
  },
  {
   "window_start": "2026-11-10T22:06:00Z",
-  "impressions": 2347,
+  "impressions": 2366,
   "clicks": 96,
-  "conversions": 11,
-  "ctr_pct": 4.09
+  "conversions": 12,
+  "ctr_pct": 4.06
  },
  {
   "window_start": "2026-11-10T22:07:00Z",
-  "impressions": 2343,
+  "impressions": 2357,
   "clicks": 99,
   "conversions": 11,
-  "ctr_pct": 4.23
+  "ctr_pct": 4.2
  },
  {
   "window_start": "2026-11-10T22:08:00Z",
-  "impressions": 2356,
+  "impressions": 2376,
   "clicks": 124,
   "conversions": 6,
-  "ctr_pct": 5.26
+  "ctr_pct": 5.22
  },
  {
   "window_start": "2026-11-10T22:09:00Z",
-  "impressions": 2340,
+  "impressions": 2360,
   "clicks": 69,
   "conversions": 4,
-  "ctr_pct": 2.95
+  "ctr_pct": 2.92
  },
  {
   "window_start": "2026-11-10T22:10:00Z",
-  "impressions": 2358,
-  "clicks": 96,
+  "impressions": 2385,
+  "clicks": 97,
   "conversions": 5,
   "ctr_pct": 4.07
  },
  {
   "window_start": "2026-11-10T22:11:00Z",
-  "impressions": 2333,
+  "impressions": 2364,
   "clicks": 110,
   "conversions": 6,
-  "ctr_pct": 4.71
+  "ctr_pct": 4.65
  },
  {
   "window_start": "2026-11-10T22:12:00Z",
-  "impressions": 2322,
-  "clicks": 92,
+  "impressions": 2343,
+  "clicks": 93,
   "conversions": 3,
-  "ctr_pct": 3.96
+  "ctr_pct": 3.97
  },
  {
   "window_start": "2026-11-10T22:13:00Z",
-  "impressions": 2323,
-  "clicks": 70,
+  "impressions": 2355,
+  "clicks": 71,
   "conversions": 5,
   "ctr_pct": 3.01
  },
  {
   "window_start": "2026-11-10T22:14:00Z",
-  "impressions": 1514,
-  "clicks": 41,
+  "impressions": 2328,
+  "clicks": 70,
+  "conversions": 9,
+  "ctr_pct": 3.01
+ },
+ {
+  "window_start": "2026-11-10T22:15:00Z",
+  "impressions": 2348,
+  "clicks": 89,
   "conversions": 6,
-  "ctr_pct": 2.71
+  "ctr_pct": 3.79
+ },
+ {
+  "window_start": "2026-11-10T22:16:00Z",
+  "impressions": 2323,
+  "clicks": 98,
+  "conversions": 7,
+  "ctr_pct": 4.22
+ },
+ {
+  "window_start": "2026-11-10T22:17:00Z",
+  "impressions": 2351,
+  "clicks": 73,
+  "conversions": 4,
+  "ctr_pct": 3.11
+ },
+ {
+  "window_start": "2026-11-10T22:18:00Z",
+  "impressions": 2308,
+  "clicks": 69,
+  "conversions": 4,
+  "ctr_pct": 2.99
+ },
+ {
+  "window_start": "2026-11-10T22:19:00Z",
+  "impressions": 1511,
+  "clicks": 48,
+  "conversions": 6,
+  "ctr_pct": 3.18
  }
 ]

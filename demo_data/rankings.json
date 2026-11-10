@@ -9,7 +9,8 @@
   "conversions": 0,
   "ctr_pct": 5.263,
   "cvr_pct": 0.0,
-  "rank_in_campaign": 1
+  "rank_in_campaign": 1,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_001",
@@ -21,7 +22,8 @@
   "conversions": 2,
   "ctr_pct": 3.341,
   "cvr_pct": 6.667,
-  "rank_in_campaign": 2
+  "rank_in_campaign": 2,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_001",
@@ -33,7 +35,8 @@
   "conversions": 4,
   "ctr_pct": 3.874,
   "cvr_pct": 14.815,
-  "rank_in_campaign": 3
+  "rank_in_campaign": 3,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_001",
@@ -45,7 +48,8 @@
   "conversions": 3,
   "ctr_pct": 4.474,
   "cvr_pct": 15.0,
-  "rank_in_campaign": 4
+  "rank_in_campaign": 4,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_001",
@@ -57,7 +61,8 @@
   "conversions": 2,
   "ctr_pct": 3.136,
   "cvr_pct": 11.111,
-  "rank_in_campaign": 5
+  "rank_in_campaign": 5,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_001",
@@ -69,7 +74,8 @@
   "conversions": 1,
   "ctr_pct": 2.876,
   "cvr_pct": 7.692,
-  "rank_in_campaign": 6
+  "rank_in_campaign": 6,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_002",
@@ -81,7 +87,8 @@
   "conversions": 0,
   "ctr_pct": 13.571,
   "cvr_pct": 0.0,
-  "rank_in_campaign": 1
+  "rank_in_campaign": 1,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_002",
@@ -93,7 +100,8 @@
   "conversions": 1,
   "ctr_pct": 7.029,
   "cvr_pct": 2.273,
-  "rank_in_campaign": 2
+  "rank_in_campaign": 2,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_002",
@@ -105,7 +113,8 @@
   "conversions": 2,
   "ctr_pct": 3.711,
   "cvr_pct": 5.405,
-  "rank_in_campaign": 3
+  "rank_in_campaign": 3,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_002",
@@ -117,7 +126,8 @@
   "conversions": 2,
   "ctr_pct": 5.36,
   "cvr_pct": 6.897,
-  "rank_in_campaign": 4
+  "rank_in_campaign": 4,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_002",
@@ -129,7 +139,8 @@
   "conversions": 1,
   "ctr_pct": 3.465,
   "cvr_pct": 4.545,
-  "rank_in_campaign": 5
+  "rank_in_campaign": 5,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_002",
@@ -141,7 +152,8 @@
   "conversions": 1,
   "ctr_pct": 3.368,
   "cvr_pct": 6.25,
-  "rank_in_campaign": 6
+  "rank_in_campaign": 6,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_003",
@@ -153,7 +165,8 @@
   "conversions": 4,
   "ctr_pct": 5.933,
   "cvr_pct": 7.273,
-  "rank_in_campaign": 1
+  "rank_in_campaign": 1,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_003",
@@ -165,7 +178,8 @@
   "conversions": 3,
   "ctr_pct": 5.701,
   "cvr_pct": 8.108,
-  "rank_in_campaign": 2
+  "rank_in_campaign": 2,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_003",
@@ -177,7 +191,8 @@
   "conversions": 4,
   "ctr_pct": 7.991,
   "cvr_pct": 10.811,
-  "rank_in_campaign": 3
+  "rank_in_campaign": 3,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_003",
@@ -189,7 +204,8 @@
   "conversions": 1,
   "ctr_pct": 5.524,
   "cvr_pct": 3.448,
-  "rank_in_campaign": 4
+  "rank_in_campaign": 4,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_003",
@@ -201,7 +217,8 @@
   "conversions": 1,
   "ctr_pct": 3.936,
   "cvr_pct": 3.704,
-  "rank_in_campaign": 5
+  "rank_in_campaign": 5,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_003",
@@ -213,7 +230,8 @@
   "conversions": 3,
   "ctr_pct": 3.513,
   "cvr_pct": 20.0,
-  "rank_in_campaign": 6
+  "rank_in_campaign": 6,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_004",
@@ -225,7 +243,8 @@
   "conversions": 2,
   "ctr_pct": 3.253,
   "cvr_pct": 6.452,
-  "rank_in_campaign": 1
+  "rank_in_campaign": 1,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_004",
@@ -237,7 +256,8 @@
   "conversions": 1,
   "ctr_pct": 2.691,
   "cvr_pct": 5.263,
-  "rank_in_campaign": 2
+  "rank_in_campaign": 2,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_004",
@@ -249,7 +269,8 @@
   "conversions": 3,
   "ctr_pct": 3.612,
   "cvr_pct": 15.789,
-  "rank_in_campaign": 3
+  "rank_in_campaign": 3,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_004",
@@ -261,7 +282,8 @@
   "conversions": 0,
   "ctr_pct": 2.832,
   "cvr_pct": 0.0,
-  "rank_in_campaign": 4
+  "rank_in_campaign": 4,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_004",
@@ -273,7 +295,8 @@
   "conversions": 0,
   "ctr_pct": 2.576,
   "cvr_pct": 0.0,
-  "rank_in_campaign": 5
+  "rank_in_campaign": 5,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_004",
@@ -285,7 +308,8 @@
   "conversions": 0,
   "ctr_pct": 1.353,
   "cvr_pct": 0.0,
-  "rank_in_campaign": 6
+  "rank_in_campaign": 6,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_005",
@@ -297,7 +321,8 @@
   "conversions": 2,
   "ctr_pct": 7.681,
   "cvr_pct": 3.704,
-  "rank_in_campaign": 1
+  "rank_in_campaign": 1,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_005",
@@ -309,7 +334,8 @@
   "conversions": 8,
   "ctr_pct": 5.405,
   "cvr_pct": 16.0,
-  "rank_in_campaign": 2
+  "rank_in_campaign": 2,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_005",
@@ -321,7 +347,8 @@
   "conversions": 2,
   "ctr_pct": 3.021,
   "cvr_pct": 10.0,
-  "rank_in_campaign": 3
+  "rank_in_campaign": 3,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_005",
@@ -333,7 +360,8 @@
   "conversions": 3,
   "ctr_pct": 3.436,
   "cvr_pct": 15.789,
-  "rank_in_campaign": 4
+  "rank_in_campaign": 4,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_005",
@@ -345,7 +373,8 @@
   "conversions": 1,
   "ctr_pct": 3.758,
   "cvr_pct": 5.556,
-  "rank_in_campaign": 5
+  "rank_in_campaign": 5,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_005",
@@ -357,7 +386,8 @@
   "conversions": 0,
   "ctr_pct": 3.104,
   "cvr_pct": 0.0,
-  "rank_in_campaign": 6
+  "rank_in_campaign": 6,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_006",
@@ -369,7 +399,8 @@
   "conversions": 1,
   "ctr_pct": 6.767,
   "cvr_pct": 2.222,
-  "rank_in_campaign": 1
+  "rank_in_campaign": 1,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_006",
@@ -381,7 +412,8 @@
   "conversions": 3,
   "ctr_pct": 1.981,
   "cvr_pct": 15.789,
-  "rank_in_campaign": 2
+  "rank_in_campaign": 2,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_006",
@@ -393,7 +425,8 @@
   "conversions": 0,
   "ctr_pct": 2.105,
   "cvr_pct": 0.0,
-  "rank_in_campaign": 3
+  "rank_in_campaign": 3,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_006",
@@ -405,7 +438,8 @@
   "conversions": 1,
   "ctr_pct": 2.46,
   "cvr_pct": 7.143,
-  "rank_in_campaign": 4
+  "rank_in_campaign": 4,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_006",
@@ -417,7 +451,8 @@
   "conversions": 0,
   "ctr_pct": 1.681,
   "cvr_pct": 0.0,
-  "rank_in_campaign": 5
+  "rank_in_campaign": 5,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_006",
@@ -429,7 +464,8 @@
   "conversions": 0,
   "ctr_pct": 0.895,
   "cvr_pct": 0.0,
-  "rank_in_campaign": 6
+  "rank_in_campaign": 6,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_007",
@@ -441,7 +477,8 @@
   "conversions": 2,
   "ctr_pct": 4.301,
   "cvr_pct": 5.0,
-  "rank_in_campaign": 1
+  "rank_in_campaign": 1,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_007",
@@ -453,7 +490,8 @@
   "conversions": 0,
   "ctr_pct": 3.863,
   "cvr_pct": 0.0,
-  "rank_in_campaign": 2
+  "rank_in_campaign": 2,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_007",
@@ -465,7 +503,8 @@
   "conversions": 2,
   "ctr_pct": 2.206,
   "cvr_pct": 13.333,
-  "rank_in_campaign": 3
+  "rank_in_campaign": 3,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_007",
@@ -477,7 +516,8 @@
   "conversions": 3,
   "ctr_pct": 2.077,
   "cvr_pct": 21.429,
-  "rank_in_campaign": 4
+  "rank_in_campaign": 4,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_007",
@@ -489,7 +529,8 @@
   "conversions": 0,
   "ctr_pct": 2.342,
   "cvr_pct": 0.0,
-  "rank_in_campaign": 5
+  "rank_in_campaign": 5,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_007",
@@ -501,7 +542,8 @@
   "conversions": 3,
   "ctr_pct": 2.697,
   "cvr_pct": 25.0,
-  "rank_in_campaign": 6
+  "rank_in_campaign": 6,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_008",
@@ -513,7 +555,8 @@
   "conversions": 4,
   "ctr_pct": 5.031,
   "cvr_pct": 8.333,
-  "rank_in_campaign": 1
+  "rank_in_campaign": 1,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_008",
@@ -525,7 +568,8 @@
   "conversions": 1,
   "ctr_pct": 7.795,
   "cvr_pct": 2.857,
-  "rank_in_campaign": 2
+  "rank_in_campaign": 2,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_008",
@@ -537,7 +581,8 @@
   "conversions": 1,
   "ctr_pct": 2.167,
   "cvr_pct": 7.143,
-  "rank_in_campaign": 3
+  "rank_in_campaign": 3,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_008",
@@ -549,7 +594,8 @@
   "conversions": 0,
   "ctr_pct": 1.993,
   "cvr_pct": 0.0,
-  "rank_in_campaign": 4
+  "rank_in_campaign": 4,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_008",
@@ -561,7 +607,8 @@
   "conversions": 0,
   "ctr_pct": 1.667,
   "cvr_pct": 0.0,
-  "rank_in_campaign": 5
+  "rank_in_campaign": 5,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  },
  {
   "campaign_id": "cmp_008",
@@ -573,6 +620,7 @@
   "conversions": 2,
   "ctr_pct": 1.987,
   "cvr_pct": 22.222,
-  "rank_in_campaign": 6
+  "rank_in_campaign": 6,
+  "computed_at": "2026-11-10T22:14:52.901010Z"
  }
 ]

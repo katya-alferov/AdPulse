@@ -100,45 +100,45 @@
   },
   {
    "window_start": "2026-11-10T22:06:00Z",
-   "impressions": 317,
+   "impressions": 320,
    "clicks": 14,
    "conversions": 2,
-   "ctr_pct": 4.42
+   "ctr_pct": 4.38
   },
   {
    "window_start": "2026-11-10T22:07:00Z",
-   "impressions": 295,
+   "impressions": 296,
    "clicks": 14,
    "conversions": 4,
-   "ctr_pct": 4.75
+   "ctr_pct": 4.73
   },
   {
    "window_start": "2026-11-10T22:08:00Z",
-   "impressions": 264,
+   "impressions": 266,
    "clicks": 7,
    "conversions": 0,
-   "ctr_pct": 2.65
+   "ctr_pct": 2.63
   },
   {
    "window_start": "2026-11-10T22:09:00Z",
-   "impressions": 283,
+   "impressions": 288,
    "clicks": 8,
    "conversions": 0,
-   "ctr_pct": 2.83
+   "ctr_pct": 2.78
   },
   {
    "window_start": "2026-11-10T22:10:00Z",
-   "impressions": 291,
+   "impressions": 295,
    "clicks": 8,
    "conversions": 2,
-   "ctr_pct": 2.75
+   "ctr_pct": 2.71
   },
   {
    "window_start": "2026-11-10T22:11:00Z",
-   "impressions": 297,
+   "impressions": 299,
    "clicks": 12,
    "conversions": 0,
-   "ctr_pct": 4.04
+   "ctr_pct": 4.01
   },
   {
    "window_start": "2026-11-10T22:12:00Z",
@@ -149,17 +149,52 @@
   },
   {
    "window_start": "2026-11-10T22:13:00Z",
-   "impressions": 290,
+   "impressions": 297,
    "clicks": 10,
    "conversions": 0,
-   "ctr_pct": 3.45
+   "ctr_pct": 3.37
   },
   {
    "window_start": "2026-11-10T22:14:00Z",
-   "impressions": 211,
-   "clicks": 7,
+   "impressions": 300,
+   "clicks": 12,
+   "conversions": 3,
+   "ctr_pct": 4.0
+  },
+  {
+   "window_start": "2026-11-10T22:15:00Z",
+   "impressions": 301,
+   "clicks": 13,
+   "conversions": 2,
+   "ctr_pct": 4.32
+  },
+  {
+   "window_start": "2026-11-10T22:16:00Z",
+   "impressions": 298,
+   "clicks": 14,
+   "conversions": 4,
+   "ctr_pct": 4.7
+  },
+  {
+   "window_start": "2026-11-10T22:17:00Z",
+   "impressions": 315,
+   "clicks": 9,
    "conversions": 1,
-   "ctr_pct": 3.32
+   "ctr_pct": 2.86
+  },
+  {
+   "window_start": "2026-11-10T22:18:00Z",
+   "impressions": 298,
+   "clicks": 11,
+   "conversions": 1,
+   "ctr_pct": 3.69
+  },
+  {
+   "window_start": "2026-11-10T22:19:00Z",
+   "impressions": 178,
+   "clicks": 2,
+   "conversions": 0,
+   "ctr_pct": 1.12
   }
  ],
  "cmp_002": [
@@ -249,59 +284,59 @@
   },
   {
    "window_start": "2026-11-10T22:05:00Z",
-   "impressions": 290,
+   "impressions": 291,
    "clicks": 27,
    "conversions": 0,
-   "ctr_pct": 9.31
+   "ctr_pct": 9.28
   },
   {
    "window_start": "2026-11-10T22:06:00Z",
-   "impressions": 286,
+   "impressions": 287,
    "clicks": 33,
-   "conversions": 0,
-   "ctr_pct": 11.54
+   "conversions": 1,
+   "ctr_pct": 11.5
   },
   {
    "window_start": "2026-11-10T22:07:00Z",
-   "impressions": 311,
+   "impressions": 312,
    "clicks": 13,
    "conversions": 2,
-   "ctr_pct": 4.18
+   "ctr_pct": 4.17
   },
   {
    "window_start": "2026-11-10T22:08:00Z",
-   "impressions": 284,
+   "impressions": 287,
    "clicks": 15,
    "conversions": 1,
-   "ctr_pct": 5.28
+   "ctr_pct": 5.23
   },
   {
    "window_start": "2026-11-10T22:09:00Z",
-   "impressions": 301,
+   "impressions": 303,
    "clicks": 14,
    "conversions": 1,
-   "ctr_pct": 4.65
+   "ctr_pct": 4.62
   },
   {
    "window_start": "2026-11-10T22:10:00Z",
-   "impressions": 285,
+   "impressions": 287,
    "clicks": 27,
    "conversions": 0,
-   "ctr_pct": 9.47
+   "ctr_pct": 9.41
   },
   {
    "window_start": "2026-11-10T22:11:00Z",
-   "impressions": 273,
+   "impressions": 277,
    "clicks": 7,
    "conversions": 1,
-   "ctr_pct": 2.56
+   "ctr_pct": 2.53
   },
   {
    "window_start": "2026-11-10T22:12:00Z",
-   "impressions": 274,
+   "impressions": 276,
    "clicks": 6,
    "conversions": 0,
-   "ctr_pct": 2.19
+   "ctr_pct": 2.17
   },
   {
    "window_start": "2026-11-10T22:13:00Z",
@@ -312,10 +347,45 @@
   },
   {
    "window_start": "2026-11-10T22:14:00Z",
-   "impressions": 169,
-   "clicks": 2,
+   "impressions": 285,
+   "clicks": 8,
    "conversions": 0,
-   "ctr_pct": 1.18
+   "ctr_pct": 2.81
+  },
+  {
+   "window_start": "2026-11-10T22:15:00Z",
+   "impressions": 271,
+   "clicks": 5,
+   "conversions": 0,
+   "ctr_pct": 1.85
+  },
+  {
+   "window_start": "2026-11-10T22:16:00Z",
+   "impressions": 278,
+   "clicks": 6,
+   "conversions": 0,
+   "ctr_pct": 2.16
+  },
+  {
+   "window_start": "2026-11-10T22:17:00Z",
+   "impressions": 282,
+   "clicks": 10,
+   "conversions": 1,
+   "ctr_pct": 3.55
+  },
+  {
+   "window_start": "2026-11-10T22:18:00Z",
+   "impressions": 268,
+   "clicks": 7,
+   "conversions": 0,
+   "ctr_pct": 2.61
+  },
+  {
+   "window_start": "2026-11-10T22:19:00Z",
+   "impressions": 220,
+   "clicks": 9,
+   "conversions": 0,
+   "ctr_pct": 4.09
   }
  ],
  "cmp_003": [
@@ -398,79 +468,114 @@
   },
   {
    "window_start": "2026-11-10T22:04:00Z",
-   "impressions": 305,
+   "impressions": 306,
    "clicks": 16,
    "conversions": 2,
-   "ctr_pct": 5.25
+   "ctr_pct": 5.23
   },
   {
    "window_start": "2026-11-10T22:05:00Z",
-   "impressions": 300,
+   "impressions": 301,
    "clicks": 12,
    "conversions": 1,
-   "ctr_pct": 4.0
+   "ctr_pct": 3.99
   },
   {
    "window_start": "2026-11-10T22:06:00Z",
-   "impressions": 277,
+   "impressions": 280,
    "clicks": 14,
    "conversions": 3,
-   "ctr_pct": 5.05
-  },
-  {
-   "window_start": "2026-11-10T22:07:00Z",
-   "impressions": 260,
-   "clicks": 13,
-   "conversions": 0,
    "ctr_pct": 5.0
   },
   {
-   "window_start": "2026-11-10T22:08:00Z",
-   "impressions": 277,
+   "window_start": "2026-11-10T22:07:00Z",
+   "impressions": 263,
    "clicks": 13,
    "conversions": 0,
-   "ctr_pct": 4.69
+   "ctr_pct": 4.94
+  },
+  {
+   "window_start": "2026-11-10T22:08:00Z",
+   "impressions": 278,
+   "clicks": 13,
+   "conversions": 0,
+   "ctr_pct": 4.68
   },
   {
    "window_start": "2026-11-10T22:09:00Z",
-   "impressions": 294,
+   "impressions": 298,
    "clicks": 12,
    "conversions": 0,
-   "ctr_pct": 4.08
+   "ctr_pct": 4.03
   },
   {
    "window_start": "2026-11-10T22:10:00Z",
-   "impressions": 299,
+   "impressions": 302,
    "clicks": 31,
    "conversions": 1,
-   "ctr_pct": 10.37
+   "ctr_pct": 10.26
   },
   {
    "window_start": "2026-11-10T22:11:00Z",
-   "impressions": 286,
+   "impressions": 290,
    "clicks": 31,
    "conversions": 2,
-   "ctr_pct": 10.84
+   "ctr_pct": 10.69
   },
   {
    "window_start": "2026-11-10T22:12:00Z",
-   "impressions": 302,
-   "clicks": 13,
+   "impressions": 303,
+   "clicks": 14,
    "conversions": 0,
-   "ctr_pct": 4.3
+   "ctr_pct": 4.62
   },
   {
    "window_start": "2026-11-10T22:13:00Z",
-   "impressions": 283,
+   "impressions": 289,
    "clicks": 12,
    "conversions": 2,
-   "ctr_pct": 4.24
+   "ctr_pct": 4.15
   },
   {
    "window_start": "2026-11-10T22:14:00Z",
+   "impressions": 296,
+   "clicks": 12,
+   "conversions": 3,
+   "ctr_pct": 4.05
+  },
+  {
+   "window_start": "2026-11-10T22:15:00Z",
+   "impressions": 295,
+   "clicks": 12,
+   "conversions": 1,
+   "ctr_pct": 4.07
+  },
+  {
+   "window_start": "2026-11-10T22:16:00Z",
+   "impressions": 288,
+   "clicks": 14,
+   "conversions": 2,
+   "ctr_pct": 4.86
+  },
+  {
+   "window_start": "2026-11-10T22:17:00Z",
+   "impressions": 280,
+   "clicks": 12,
+   "conversions": 2,
+   "ctr_pct": 4.29
+  },
+  {
+   "window_start": "2026-11-10T22:18:00Z",
+   "impressions": 297,
+   "clicks": 12,
+   "conversions": 2,
+   "ctr_pct": 4.04
+  },
+  {
+   "window_start": "2026-11-10T22:19:00Z",
    "impressions": 194,
    "clicks": 9,
-   "conversions": 2,
+   "conversions": 1,
    "ctr_pct": 4.64
   }
  ],
@@ -568,66 +673,101 @@
   },
   {
    "window_start": "2026-11-10T22:06:00Z",
-   "impressions": 320,
+   "impressions": 322,
    "clicks": 11,
    "conversions": 1,
-   "ctr_pct": 3.44
+   "ctr_pct": 3.42
   },
   {
    "window_start": "2026-11-10T22:07:00Z",
-   "impressions": 308,
+   "impressions": 312,
    "clicks": 8,
    "conversions": 1,
-   "ctr_pct": 2.6
+   "ctr_pct": 2.56
   },
   {
    "window_start": "2026-11-10T22:08:00Z",
-   "impressions": 309,
+   "impressions": 311,
    "clicks": 10,
    "conversions": 0,
-   "ctr_pct": 3.24
+   "ctr_pct": 3.22
   },
   {
    "window_start": "2026-11-10T22:09:00Z",
-   "impressions": 273,
+   "impressions": 275,
    "clicks": 10,
    "conversions": 0,
-   "ctr_pct": 3.66
+   "ctr_pct": 3.64
   },
   {
    "window_start": "2026-11-10T22:10:00Z",
-   "impressions": 305,
+   "impressions": 310,
    "clicks": 7,
    "conversions": 0,
-   "ctr_pct": 2.3
+   "ctr_pct": 2.26
   },
   {
    "window_start": "2026-11-10T22:11:00Z",
-   "impressions": 289,
+   "impressions": 294,
    "clicks": 8,
    "conversions": 0,
-   "ctr_pct": 2.77
+   "ctr_pct": 2.72
   },
   {
    "window_start": "2026-11-10T22:12:00Z",
-   "impressions": 274,
+   "impressions": 278,
    "clicks": 8,
    "conversions": 1,
-   "ctr_pct": 2.92
+   "ctr_pct": 2.88
   },
   {
    "window_start": "2026-11-10T22:13:00Z",
-   "impressions": 258,
+   "impressions": 262,
    "clicks": 3,
    "conversions": 0,
-   "ctr_pct": 1.16
+   "ctr_pct": 1.15
   },
   {
    "window_start": "2026-11-10T22:14:00Z",
-   "impressions": 179,
+   "impressions": 274,
+   "clicks": 5,
+   "conversions": 0,
+   "ctr_pct": 1.82
+  },
+  {
+   "window_start": "2026-11-10T22:15:00Z",
+   "impressions": 289,
+   "clicks": 5,
+   "conversions": 1,
+   "ctr_pct": 1.73
+  },
+  {
+   "window_start": "2026-11-10T22:16:00Z",
+   "impressions": 332,
+   "clicks": 6,
+   "conversions": 0,
+   "ctr_pct": 1.81
+  },
+  {
+   "window_start": "2026-11-10T22:17:00Z",
+   "impressions": 278,
+   "clicks": 2,
+   "conversions": 0,
+   "ctr_pct": 0.72
+  },
+  {
+   "window_start": "2026-11-10T22:18:00Z",
+   "impressions": 305,
    "clicks": 3,
    "conversions": 0,
-   "ctr_pct": 1.68
+   "ctr_pct": 0.98
+  },
+  {
+   "window_start": "2026-11-10T22:19:00Z",
+   "impressions": 178,
+   "clicks": 2,
+   "conversions": 0,
+   "ctr_pct": 1.12
   }
  ],
  "cmp_005": [
@@ -724,73 +864,108 @@
   },
   {
    "window_start": "2026-11-10T22:05:00Z",
-   "impressions": 292,
+   "impressions": 293,
    "clicks": 10,
    "conversions": 1,
-   "ctr_pct": 3.42
+   "ctr_pct": 3.41
   },
   {
    "window_start": "2026-11-10T22:06:00Z",
-   "impressions": 261,
+   "impressions": 263,
    "clicks": 8,
    "conversions": 3,
-   "ctr_pct": 3.07
+   "ctr_pct": 3.04
   },
   {
    "window_start": "2026-11-10T22:07:00Z",
-   "impressions": 299,
+   "impressions": 301,
    "clicks": 22,
    "conversions": 1,
-   "ctr_pct": 7.36
+   "ctr_pct": 7.31
   },
   {
    "window_start": "2026-11-10T22:08:00Z",
-   "impressions": 304,
+   "impressions": 306,
    "clicks": 21,
    "conversions": 3,
-   "ctr_pct": 6.91
+   "ctr_pct": 6.86
   },
   {
    "window_start": "2026-11-10T22:09:00Z",
-   "impressions": 311,
+   "impressions": 313,
    "clicks": 5,
    "conversions": 1,
-   "ctr_pct": 1.61
+   "ctr_pct": 1.6
   },
   {
    "window_start": "2026-11-10T22:10:00Z",
-   "impressions": 304,
+   "impressions": 306,
    "clicks": 6,
    "conversions": 1,
-   "ctr_pct": 1.97
+   "ctr_pct": 1.96
   },
   {
    "window_start": "2026-11-10T22:11:00Z",
-   "impressions": 283,
+   "impressions": 286,
    "clicks": 7,
    "conversions": 0,
-   "ctr_pct": 2.47
+   "ctr_pct": 2.45
   },
   {
    "window_start": "2026-11-10T22:12:00Z",
-   "impressions": 305,
+   "impressions": 310,
    "clicks": 32,
    "conversions": 0,
-   "ctr_pct": 10.49
+   "ctr_pct": 10.32
   },
   {
    "window_start": "2026-11-10T22:13:00Z",
-   "impressions": 316,
+   "impressions": 320,
    "clicks": 15,
    "conversions": 2,
-   "ctr_pct": 4.75
+   "ctr_pct": 4.69
   },
   {
    "window_start": "2026-11-10T22:14:00Z",
-   "impressions": 189,
-   "clicks": 5,
+   "impressions": 287,
+   "clicks": 8,
    "conversions": 2,
-   "ctr_pct": 2.65
+   "ctr_pct": 2.79
+  },
+  {
+   "window_start": "2026-11-10T22:15:00Z",
+   "impressions": 292,
+   "clicks": 10,
+   "conversions": 2,
+   "ctr_pct": 3.42
+  },
+  {
+   "window_start": "2026-11-10T22:16:00Z",
+   "impressions": 299,
+   "clicks": 9,
+   "conversions": 0,
+   "ctr_pct": 3.01
+  },
+  {
+   "window_start": "2026-11-10T22:17:00Z",
+   "impressions": 296,
+   "clicks": 4,
+   "conversions": 0,
+   "ctr_pct": 1.35
+  },
+  {
+   "window_start": "2026-11-10T22:18:00Z",
+   "impressions": 276,
+   "clicks": 21,
+   "conversions": 0,
+   "ctr_pct": 7.61
+  },
+  {
+   "window_start": "2026-11-10T22:19:00Z",
+   "impressions": 202,
+   "clicks": 4,
+   "conversions": 0,
+   "ctr_pct": 1.98
   }
  ],
  "cmp_006": [
@@ -894,7 +1069,7 @@
   },
   {
    "window_start": "2026-11-10T22:04:00Z",
-   "impressions": 292,
+   "impressions": 293,
    "clicks": 6,
    "conversions": 2,
    "ctr_pct": 2.05
@@ -908,66 +1083,101 @@
   },
   {
    "window_start": "2026-11-10T22:06:00Z",
-   "impressions": 304,
+   "impressions": 306,
    "clicks": 6,
    "conversions": 0,
-   "ctr_pct": 1.97
+   "ctr_pct": 1.96
   },
   {
    "window_start": "2026-11-10T22:07:00Z",
-   "impressions": 306,
+   "impressions": 307,
    "clicks": 18,
    "conversions": 1,
-   "ctr_pct": 5.88
+   "ctr_pct": 5.86
   },
   {
    "window_start": "2026-11-10T22:08:00Z",
-   "impressions": 294,
+   "impressions": 297,
    "clicks": 3,
    "conversions": 0,
-   "ctr_pct": 1.02
+   "ctr_pct": 1.01
   },
   {
    "window_start": "2026-11-10T22:09:00Z",
-   "impressions": 289,
+   "impressions": 292,
    "clicks": 6,
    "conversions": 0,
-   "ctr_pct": 2.08
+   "ctr_pct": 2.05
   },
   {
    "window_start": "2026-11-10T22:10:00Z",
-   "impressions": 309,
+   "impressions": 315,
    "clicks": 6,
    "conversions": 0,
-   "ctr_pct": 1.94
+   "ctr_pct": 1.9
   },
   {
    "window_start": "2026-11-10T22:11:00Z",
-   "impressions": 281,
+   "impressions": 283,
    "clicks": 30,
    "conversions": 2,
-   "ctr_pct": 10.68
+   "ctr_pct": 10.6
   },
   {
    "window_start": "2026-11-10T22:12:00Z",
-   "impressions": 293,
+   "impressions": 297,
    "clicks": 8,
    "conversions": 0,
-   "ctr_pct": 2.73
+   "ctr_pct": 2.69
   },
   {
    "window_start": "2026-11-10T22:13:00Z",
-   "impressions": 296,
+   "impressions": 298,
    "clicks": 5,
    "conversions": 0,
-   "ctr_pct": 1.69
+   "ctr_pct": 1.68
   },
   {
    "window_start": "2026-11-10T22:14:00Z",
-   "impressions": 189,
+   "impressions": 293,
+   "clicks": 4,
+   "conversions": 0,
+   "ctr_pct": 1.37
+  },
+  {
+   "window_start": "2026-11-10T22:15:00Z",
+   "impressions": 278,
    "clicks": 3,
    "conversions": 0,
-   "ctr_pct": 1.59
+   "ctr_pct": 1.08
+  },
+  {
+   "window_start": "2026-11-10T22:16:00Z",
+   "impressions": 280,
+   "clicks": 9,
+   "conversions": 0,
+   "ctr_pct": 3.21
+  },
+  {
+   "window_start": "2026-11-10T22:17:00Z",
+   "impressions": 311,
+   "clicks": 33,
+   "conversions": 0,
+   "ctr_pct": 10.61
+  },
+  {
+   "window_start": "2026-11-10T22:18:00Z",
+   "impressions": 286,
+   "clicks": 5,
+   "conversions": 0,
+   "ctr_pct": 1.75
+  },
+  {
+   "window_start": "2026-11-10T22:19:00Z",
+   "impressions": 190,
+   "clicks": 6,
+   "conversions": 2,
+   "ctr_pct": 3.16
   }
  ],
  "cmp_007": [
@@ -1064,21 +1274,21 @@
   },
   {
    "window_start": "2026-11-10T22:06:00Z",
-   "impressions": 279,
+   "impressions": 282,
    "clicks": 8,
    "conversions": 1,
-   "ctr_pct": 2.87
+   "ctr_pct": 2.84
   },
   {
    "window_start": "2026-11-10T22:07:00Z",
-   "impressions": 290,
+   "impressions": 291,
    "clicks": 7,
    "conversions": 1,
    "ctr_pct": 2.41
   },
   {
    "window_start": "2026-11-10T22:08:00Z",
-   "impressions": 332,
+   "impressions": 335,
    "clicks": 3,
    "conversions": 1,
    "ctr_pct": 0.9
@@ -1092,38 +1302,73 @@
   },
   {
    "window_start": "2026-11-10T22:10:00Z",
-   "impressions": 272,
+   "impressions": 275,
    "clicks": 5,
    "conversions": 0,
-   "ctr_pct": 1.84
+   "ctr_pct": 1.82
   },
   {
    "window_start": "2026-11-10T22:11:00Z",
-   "impressions": 298,
+   "impressions": 305,
    "clicks": 8,
    "conversions": 1,
-   "ctr_pct": 2.68
+   "ctr_pct": 2.62
   },
   {
    "window_start": "2026-11-10T22:12:00Z",
-   "impressions": 280,
+   "impressions": 282,
    "clicks": 10,
    "conversions": 0,
-   "ctr_pct": 3.57
+   "ctr_pct": 3.55
   },
   {
    "window_start": "2026-11-10T22:13:00Z",
-   "impressions": 282,
+   "impressions": 287,
    "clicks": 7,
    "conversions": 1,
-   "ctr_pct": 2.48
+   "ctr_pct": 2.44
   },
   {
    "window_start": "2026-11-10T22:14:00Z",
-   "impressions": 192,
-   "clicks": 8,
+   "impressions": 293,
+   "clicks": 13,
    "conversions": 1,
-   "ctr_pct": 4.17
+   "ctr_pct": 4.44
+  },
+  {
+   "window_start": "2026-11-10T22:15:00Z",
+   "impressions": 322,
+   "clicks": 33,
+   "conversions": 0,
+   "ctr_pct": 10.25
+  },
+  {
+   "window_start": "2026-11-10T22:16:00Z",
+   "impressions": 281,
+   "clicks": 24,
+   "conversions": 1,
+   "ctr_pct": 8.54
+  },
+  {
+   "window_start": "2026-11-10T22:17:00Z",
+   "impressions": 301,
+   "clicks": 2,
+   "conversions": 0,
+   "ctr_pct": 0.66
+  },
+  {
+   "window_start": "2026-11-10T22:18:00Z",
+   "impressions": 290,
+   "clicks": 6,
+   "conversions": 0,
+   "ctr_pct": 2.07
+  },
+  {
+   "window_start": "2026-11-10T22:19:00Z",
+   "impressions": 173,
+   "clicks": 8,
+   "conversions": 3,
+   "ctr_pct": 4.62
   }
  ],
  "cmp_008": [
@@ -1185,10 +1430,10 @@
   },
   {
    "window_start": "2026-11-10T22:04:00Z",
-   "impressions": 286,
+   "impressions": 288,
    "clicks": 6,
    "conversions": 1,
-   "ctr_pct": 2.1
+   "ctr_pct": 2.08
   },
   {
    "window_start": "2026-11-10T22:05:00Z",
@@ -1199,66 +1444,101 @@
   },
   {
    "window_start": "2026-11-10T22:06:00Z",
-   "impressions": 303,
+   "impressions": 306,
    "clicks": 2,
    "conversions": 1,
-   "ctr_pct": 0.66
+   "ctr_pct": 0.65
   },
   {
    "window_start": "2026-11-10T22:07:00Z",
-   "impressions": 274,
+   "impressions": 275,
    "clicks": 4,
    "conversions": 1,
-   "ctr_pct": 1.46
+   "ctr_pct": 1.45
   },
   {
    "window_start": "2026-11-10T22:08:00Z",
-   "impressions": 292,
+   "impressions": 296,
    "clicks": 52,
    "conversions": 1,
-   "ctr_pct": 17.81
+   "ctr_pct": 17.57
   },
   {
    "window_start": "2026-11-10T22:09:00Z",
-   "impressions": 288,
+   "impressions": 290,
    "clicks": 5,
    "conversions": 1,
-   "ctr_pct": 1.74
+   "ctr_pct": 1.72
   },
   {
    "window_start": "2026-11-10T22:10:00Z",
-   "impressions": 293,
-   "clicks": 6,
+   "impressions": 295,
+   "clicks": 7,
    "conversions": 1,
-   "ctr_pct": 2.05
+   "ctr_pct": 2.37
   },
   {
    "window_start": "2026-11-10T22:11:00Z",
-   "impressions": 326,
+   "impressions": 330,
    "clicks": 7,
    "conversions": 0,
-   "ctr_pct": 2.15
+   "ctr_pct": 2.12
   },
   {
    "window_start": "2026-11-10T22:12:00Z",
-   "impressions": 312,
+   "impressions": 315,
    "clicks": 7,
    "conversions": 0,
-   "ctr_pct": 2.24
+   "ctr_pct": 2.22
   },
   {
    "window_start": "2026-11-10T22:13:00Z",
-   "impressions": 300,
-   "clicks": 7,
+   "impressions": 304,
+   "clicks": 8,
    "conversions": 0,
-   "ctr_pct": 2.33
+   "ctr_pct": 2.63
   },
   {
    "window_start": "2026-11-10T22:14:00Z",
-   "impressions": 191,
-   "clicks": 4,
+   "impressions": 300,
+   "clicks": 8,
    "conversions": 0,
-   "ctr_pct": 2.09
+   "ctr_pct": 2.67
+  },
+  {
+   "window_start": "2026-11-10T22:15:00Z",
+   "impressions": 300,
+   "clicks": 8,
+   "conversions": 0,
+   "ctr_pct": 2.67
+  },
+  {
+   "window_start": "2026-11-10T22:16:00Z",
+   "impressions": 267,
+   "clicks": 16,
+   "conversions": 0,
+   "ctr_pct": 5.99
+  },
+  {
+   "window_start": "2026-11-10T22:17:00Z",
+   "impressions": 288,
+   "clicks": 1,
+   "conversions": 0,
+   "ctr_pct": 0.35
+  },
+  {
+   "window_start": "2026-11-10T22:18:00Z",
+   "impressions": 288,
+   "clicks": 4,
+   "conversions": 1,
+   "ctr_pct": 1.39
+  },
+  {
+   "window_start": "2026-11-10T22:19:00Z",
+   "impressions": 176,
+   "clicks": 8,
+   "conversions": 0,
+   "ctr_pct": 4.55
   }
  ]
 }

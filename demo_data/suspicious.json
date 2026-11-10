@@ -1,5 +1,55 @@
 [
  {
+  "window_start": "2026-11-10T22:18:00Z",
+  "window_end": "2026-11-10T22:19:00Z",
+  "user_id": "bot_024",
+  "ip_address": "10.219.99.110",
+  "campaign_id": "cmp_005",
+  "campaign_name": "Healthy Meal Boxes",
+  "click_count": 14,
+  "reason": "click_burst>=8/min"
+ },
+ {
+  "window_start": "2026-11-10T22:17:00Z",
+  "window_end": "2026-11-10T22:18:00Z",
+  "user_id": "bot_038",
+  "ip_address": "10.66.174.135",
+  "campaign_id": "cmp_006",
+  "campaign_name": "Personal Finance App",
+  "click_count": 24,
+  "reason": "click_burst>=8/min"
+ },
+ {
+  "window_start": "2026-11-10T22:16:00Z",
+  "window_end": "2026-11-10T22:17:00Z",
+  "user_id": "bot_016",
+  "ip_address": "10.100.156.196",
+  "campaign_id": "cmp_007",
+  "campaign_name": "Mystery Novel Release",
+  "click_count": 16,
+  "reason": "click_burst>=8/min"
+ },
+ {
+  "window_start": "2026-11-10T22:16:00Z",
+  "window_end": "2026-11-10T22:17:00Z",
+  "user_id": "bot_025",
+  "ip_address": "10.65.78.19",
+  "campaign_id": "cmp_008",
+  "campaign_name": "Electric Scooter Launch",
+  "click_count": 11,
+  "reason": "click_burst>=8/min"
+ },
+ {
+  "window_start": "2026-11-10T22:15:00Z",
+  "window_end": "2026-11-10T22:16:00Z",
+  "user_id": "bot_025",
+  "ip_address": "10.192.89.207",
+  "campaign_id": "cmp_007",
+  "campaign_name": "Mystery Novel Release",
+  "click_count": 23,
+  "reason": "click_burst>=8/min"
+ },
+ {
   "window_start": "2026-11-10T22:12:00Z",
   "window_end": "2026-11-10T22:13:00Z",
   "user_id": "bot_047",

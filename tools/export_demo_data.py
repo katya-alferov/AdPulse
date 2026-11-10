@@ -43,8 +43,9 @@ def main() -> int:
     dump(out / "timeseries.json", client.timeseries(args.minutes))
     dump(out / "timeseries_by_campaign.json",
          {c.campaign_id: client.timeseries(args.minutes, c.campaign_id) for c in CAMPAIGNS})
-    dump(out / "suspicious.json", client.suspicious(200))
-    dump(out / "duplicates.json", client.duplicates(200))
+    # Leave out rows created by the integration tests (user ids starting with "it_").
+    dump(out / "suspicious.json", [r for r in client.suspicious(200) if not r["user_id"].startswith("it_")])
+    dump(out / "duplicates.json", [r for r in client.duplicates(200) if not r["user_id"].startswith("it_")])
     dump(out / "invalid.json", client.invalid())
     dump(out / "rankings.json", client.rankings())
     dump(out / "metadata.json", {

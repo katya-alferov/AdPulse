@@ -99,3 +99,4 @@ class PublisherRanking(BaseModel):
     ctr_pct: float
     cvr_pct: float
     rank_in_campaign: int
+    computed_at: Optional[datetime] = None

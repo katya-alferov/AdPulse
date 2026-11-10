@@ -193,8 +193,9 @@ def render_publishers(client: AdPulseClient) -> None:
     if ranks.empty:
         st.caption("Run the batch job to fill this table:  `docker compose run --rm spark-batch`")
     else:
-        st.dataframe(ranks[["campaign_name", "rank_in_campaign", "publisher_name", "clicks", "ctr_pct",
-                            "cvr_pct", "computed_at"]], hide_index=True, use_container_width=True)
+        cols = [c for c in ["campaign_name", "rank_in_campaign", "publisher_name", "clicks", "ctr_pct", "cvr_pct",
+                            "computed_at"] if c in ranks.columns]
+        st.dataframe(ranks[cols], hide_index=True, use_container_width=True)
 
 
 def render_quality(client: AdPulseClient, s: dict) -> None:
