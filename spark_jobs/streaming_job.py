@@ -84,7 +84,7 @@ def invalid_batch_writer(s: SparkJobSettings, pg: PostgresWriter):
                   .agg(F.count(F.lit(1)).alias("event_count")).collect())
         rows = [(r["window_start"], r["validation_error"], r["event_count"]) for r in counts]
         pg.upsert_rows(INVALID_UPSERT, rows, "(%s, %s, %s, now())")
-        log.warning("[invalid] batch %d: %d invalid events", batch_id, sum(r[2] for r in rows))
+        log.info("[invalid] batch %d: %d invalid events", batch_id, sum(r[2] for r in rows))
         batch_df.unpersist()
 
     return write

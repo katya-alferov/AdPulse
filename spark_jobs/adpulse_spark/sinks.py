@@ -88,6 +88,6 @@ class PostgresWriter:
             rows = [tuple(r[c] for c in columns) for r in batch_df.select(*columns).collect()]
             written = self.upsert_rows(sql, rows, template)
             if written:
-                log.warning("[%s] batch %d: upserted %d rows", name, batch_id, written)
+                log.info("[%s] batch %d: upserted %d rows", name, batch_id, written)
 
         return write

@@ -26,5 +26,5 @@ def build_spark(app_name: str, settings: SparkJobSettings) -> SparkSession:
                 "org.apache.hadoop.fs.s3a.SimpleAWSCredentialsProvider")
         .getOrCreate()
     )
-    spark.sparkContext.setLogLevel("WARN")
+    spark.sparkContext.setLogLevel("ERROR")  # hide noisy INFO/WARN logs
     return spark
