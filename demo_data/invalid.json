@@ -1,0 +1,34 @@
+[
+ {
+  "validation_error": "malformed_json",
+  "event_count": 69
+ },
+ {
+  "validation_error": "event_time_in_future",
+  "event_count": 67
+ },
+ {
+  "validation_error": "negative_amount",
+  "event_count": 60
+ },
+ {
+  "validation_error": "invalid_event_type",
+  "event_count": 55
+ },
+ {
+  "validation_error": "missing_field:publisher_id",
+  "event_count": 19
+ },
+ {
+  "validation_error": "missing_field:user_id",
+  "event_count": 18
+ },
+ {
+  "validation_error": "missing_field:event_time",
+  "event_count": 16
+ },
+ {
+  "validation_error": "missing_field:campaign_id",
+  "event_count": 14
+ }
+]

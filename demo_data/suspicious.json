@@ -1,0 +1,172 @@
+[
+ {
+  "window_start": "2026-11-10T22:12:00Z",
+  "window_end": "2026-11-10T22:13:00Z",
+  "user_id": "bot_047",
+  "ip_address": "10.53.118.184",
+  "campaign_id": "cmp_005",
+  "campaign_name": "Healthy Meal Boxes",
+  "click_count": 20,
+  "reason": "click_burst>=8/min"
+ },
+ {
+  "window_start": "2026-11-10T22:11:00Z",
+  "window_end": "2026-11-10T22:12:00Z",
+  "user_id": "bot_022",
+  "ip_address": "10.213.43.50",
+  "campaign_id": "cmp_006",
+  "campaign_name": "Personal Finance App",
+  "click_count": 20,
+  "reason": "click_burst>=8/min"
+ },
+ {
+  "window_start": "2026-11-10T22:11:00Z",
+  "window_end": "2026-11-10T22:12:00Z",
+  "user_id": "bot_029",
+  "ip_address": "10.171.59.140",
+  "campaign_id": "cmp_003",
+  "campaign_name": "Learn Python Online",
+  "click_count": 17,
+  "reason": "click_burst>=8/min"
+ },
+ {
+  "window_start": "2026-11-10T22:10:00Z",
+  "window_end": "2026-11-10T22:11:00Z",
+  "user_id": "bot_032",
+  "ip_address": "10.8.88.230",
+  "campaign_id": "cmp_003",
+  "campaign_name": "Learn Python Online",
+  "click_count": 20,
+  "reason": "click_burst>=8/min"
+ },
+ {
+  "window_start": "2026-11-10T22:10:00Z",
+  "window_end": "2026-11-10T22:11:00Z",
+  "user_id": "bot_017",
+  "ip_address": "10.109.166.42",
+  "campaign_id": "cmp_002",
+  "campaign_name": "Budget Flights to Europe",
+  "click_count": 19,
+  "reason": "click_burst>=8/min"
+ },
+ {
+  "window_start": "2026-11-10T22:08:00Z",
+  "window_end": "2026-11-10T22:09:00Z",
+  "user_id": "bot_030",
+  "ip_address": "10.56.131.117",
+  "campaign_id": "cmp_008",
+  "campaign_name": "Electric Scooter Launch",
+  "click_count": 24,
+  "reason": "click_burst>=8/min"
+ },
+ {
+  "window_start": "2026-11-10T22:08:00Z",
+  "window_end": "2026-11-10T22:09:00Z",
+  "user_id": "bot_034",
+  "ip_address": "10.200.5.244",
+  "campaign_id": "cmp_008",
+  "campaign_name": "Electric Scooter Launch",
+  "click_count": 19,
+  "reason": "click_burst>=8/min"
+ },
+ {
+  "window_start": "2026-11-10T22:08:00Z",
+  "window_end": "2026-11-10T22:09:00Z",
+  "user_id": "bot_032",
+  "ip_address": "10.224.112.206",
+  "campaign_id": "cmp_005",
+  "campaign_name": "Healthy Meal Boxes",
+  "click_count": 11,
+  "reason": "click_burst>=8/min"
+ },
+ {
+  "window_start": "2026-11-10T22:07:00Z",
+  "window_end": "2026-11-10T22:08:00Z",
+  "user_id": "bot_019",
+  "ip_address": "10.16.35.66",
+  "campaign_id": "cmp_006",
+  "campaign_name": "Personal Finance App",
+  "click_count": 13,
+  "reason": "click_burst>=8/min"
+ },
+ {
+  "window_start": "2026-11-10T22:06:00Z",
+  "window_end": "2026-11-10T22:07:00Z",
+  "user_id": "bot_011",
+  "ip_address": "10.212.148.21",
+  "campaign_id": "cmp_002",
+  "campaign_name": "Budget Flights to Europe",
+  "click_count": 25,
+  "reason": "click_burst>=8/min"
+ },
+ {
+  "window_start": "2026-11-10T22:05:00Z",
+  "window_end": "2026-11-10T22:06:00Z",
+  "user_id": "bot_020",
+  "ip_address": "10.4.99.122",
+  "campaign_id": "cmp_002",
+  "campaign_name": "Budget Flights to Europe",
+  "click_count": 15,
+  "reason": "click_burst>=8/min"
+ },
+ {
+  "window_start": "2026-11-10T22:05:00Z",
+  "window_end": "2026-11-10T22:06:00Z",
+  "user_id": "bot_049",
+  "ip_address": "10.75.72.105",
+  "campaign_id": "cmp_001",
+  "campaign_name": "Summer Sneakers Sale",
+  "click_count": 12,
+  "reason": "click_burst>=8/min"
+ },
+ {
+  "window_start": "2026-11-10T22:04:00Z",
+  "window_end": "2026-11-10T22:05:00Z",
+  "user_id": "it_bot_0ea98ad2",
+  "ip_address": "10.250.250.250",
+  "campaign_id": "cmp_002",
+  "campaign_name": "Budget Flights to Europe",
+  "click_count": 12,
+  "reason": "click_burst>=8/min"
+ },
+ {
+  "window_start": "2026-11-10T22:03:00Z",
+  "window_end": "2026-11-10T22:04:00Z",
+  "user_id": "bot_017",
+  "ip_address": "10.233.215.234",
+  "campaign_id": "cmp_005",
+  "campaign_name": "Healthy Meal Boxes",
+  "click_count": 13,
+  "reason": "click_burst>=8/min"
+ },
+ {
+  "window_start": "2026-11-10T22:03:00Z",
+  "window_end": "2026-11-10T22:04:00Z",
+  "user_id": "it_bot_15059580",
+  "ip_address": "10.250.250.250",
+  "campaign_id": "cmp_002",
+  "campaign_name": "Budget Flights to Europe",
+  "click_count": 12,
+  "reason": "click_burst>=8/min"
+ },
+ {
+  "window_start": "2026-11-10T22:03:00Z",
+  "window_end": "2026-11-10T22:04:00Z",
+  "user_id": "bot_027",
+  "ip_address": "10.48.200.125",
+  "campaign_id": "cmp_007",
+  "campaign_name": "Mystery Novel Release",
+  "click_count": 11,
+  "reason": "click_burst>=8/min"
+ },
+ {
+  "window_start": "2026-11-10T22:02:00Z",
+  "window_end": "2026-11-10T22:03:00Z",
+  "user_id": "bot_017",
+  "ip_address": "10.233.215.234",
+  "campaign_id": "cmp_005",
+  "campaign_name": "Healthy Meal Boxes",
+  "click_count": 9,
+  "reason": "click_burst>=8/min"
+ }
+]

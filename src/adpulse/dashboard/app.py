@@ -31,7 +31,7 @@ st.set_page_config(page_title="AdPulse Analytics", page_icon="📈", layout="wid
 st.markdown(
     f"""
     <style>
-      .block-container {{ padding-top: 1.6rem; }}
+      .block-container {{ padding-top: 2.8rem; }}
       .kpi {{ background: {SURFACE}; border: 1px solid rgba(144,133,233,.18); border-radius: 14px;
               padding: 14px 18px 12px; position: relative; overflow: hidden; }}
       .kpi:after {{ content: ""; position: absolute; left: 12%; right: 12%; bottom: 0; height: 3px;
@@ -66,7 +66,7 @@ def style(fig, height: int = 300):
         paper_bgcolor=SURFACE, plot_bgcolor=SURFACE, font=dict(color="#f0efec", size=12),
         title_font=dict(size=14), hoverlabel=dict(bgcolor="#11121f"), legend_title_text="",
     )
-    fig.update_xaxes(gridcolor=GRID, zeroline=False)
+    fig.update_xaxes(gridcolor=GRID, zeroline=False, title_text=None if fig.layout.xaxis.title.text == "window_start" else fig.layout.xaxis.title.text)
     fig.update_yaxes(gridcolor=GRID, zeroline=False)
     return fig
 

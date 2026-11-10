@@ -1,0 +1,5 @@
+{
+ "exported_at": "2026-11-10T22:14:54+00:00",
+ "source": "Local AdPulse run: generator -> Kafka -> Spark Structured Streaming -> PostgreSQL -> FastAPI",
+ "data": "100% synthetic (fictional campaigns, publishers and users)"
+}
