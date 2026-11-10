@@ -87,7 +87,7 @@ class GeneratorSettings:
     duplicate_rate: float = 0.02
     invalid_rate: float = 0.01
     late_event_rate: float = 0.03
-    bot_burst_probability: float = 0.01
+    bot_burst_probability: float = 0.0005
     seed: Optional[int] = None
 
 
@@ -131,7 +131,7 @@ class Settings:
                 duplicate_rate=_get_float("DUPLICATE_RATE", 0.02, 0.0, 1.0),
                 invalid_rate=_get_float("INVALID_RATE", 0.01, 0.0, 1.0),
                 late_event_rate=_get_float("LATE_EVENT_RATE", 0.03, 0.0, 1.0),
-                bot_burst_probability=_get_float("BOT_BURST_PROBABILITY", 0.01, 0.0, 1.0),
+                bot_burst_probability=_get_float("BOT_BURST_PROBABILITY", 0.0005, 0.0, 1.0),
                 seed=int(seed_raw) if seed_raw.strip() else None,
             ),
             api_base_url=_get_str("API_BASE_URL", "http://localhost:8000"),
