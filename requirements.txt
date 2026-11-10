@@ -1,0 +1,6 @@
+# Minimal dependencies for the PUBLIC dashboard demo (streamlit_app.py).
+# The full system's dependencies live in requirements/ and the Dockerfiles.
+streamlit==1.40.2
+plotly==5.24.1
+pandas==2.2.3
+requests==2.32.3

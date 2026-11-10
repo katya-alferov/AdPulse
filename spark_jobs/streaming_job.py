@@ -1,6 +1,6 @@
 """AdPulse real-time pipeline (Spark Structured Streaming).
 
-Kafka ad-events ──▶ parse ──▶ validate + join dims ──┬─▶ invalid  ──▶ S3 Parquet + Postgres counts
+Kafka ad-events ──▶ parse ──▶ validate + join dims ──┬─▶ invalid  ──▶ S3 Parquet (quarantine) + Postgres counts
                                                      └─▶ valid ──▶ watermark ──┬─▶ dedup ──┬─▶ S3 Parquet (data lake)
                                                                                │           ├─▶ 1-min metrics  ──▶ Postgres
                                                                                │           └─▶ fraud detection ─▶ Postgres
@@ -69,23 +69,17 @@ def read_kafka(spark: SparkSession, s: SparkJobSettings) -> DataFrame:
     )
 
 
-def invalid_batch_writer(s: SparkJobSettings, pg: PostgresWriter):
-    """Invalid events: keep the raw message in the lake AND count them per minute in Postgres."""
-    path = f"{s.lake_path}/invalid_events"
+def invalid_counts_writer(pg: PostgresWriter):
+    """Count invalid events per minute and reason, add them to Postgres."""
 
     def write(batch_df: DataFrame, batch_id: int) -> None:
-        if batch_df.isEmpty():
-            return
-        batch_df.persist()
-        (batch_df.withColumn("ingest_date", F.to_date("kafka_timestamp"))
-         .write.mode("append").partitionBy("ingest_date").parquet(path))
         counts = (batch_df.groupBy(F.date_trunc("minute", "kafka_timestamp").alias("window_start"),
                                    "validation_error")
                   .agg(F.count(F.lit(1)).alias("event_count")).collect())
         rows = [(r["window_start"], r["validation_error"], r["event_count"]) for r in counts]
-        pg.upsert_rows(INVALID_UPSERT, rows, "(%s, %s, %s, now())")
-        log.info("[invalid] batch %d: %d invalid events", batch_id, sum(r[2] for r in rows))
-        batch_df.unpersist()
+        if rows:
+            pg.upsert_rows(INVALID_UPSERT, rows, "(%s, %s, %s, now())")
+            log.info("[invalid] batch %d: %d invalid events", batch_id, sum(r[2] for r in rows))
 
     return write
 
@@ -134,9 +128,16 @@ def main() -> int:
             ["event_id", "event_type", "campaign_id", "user_id", "occurrences"], ", now()"))
         .trigger(**trigger).start(),
 
-        invalid.writeStream.queryName("invalid_events")
-        .option("checkpointLocation", f"{ckpt}/invalid_events")
-        .foreachBatch(invalid_batch_writer(s, pg)).trigger(**trigger).start(),
+        # Raw invalid messages are kept in the lake for investigation ("quarantine").
+        invalid.withColumn("ingest_date", F.to_date("kafka_timestamp"))
+        .writeStream.queryName("invalid_to_lake")
+        .format("parquet").option("path", f"{s.lake_path}/invalid_events")
+        .option("checkpointLocation", f"{ckpt}/invalid_to_lake")
+        .partitionBy("ingest_date").outputMode("append").trigger(**trigger).start(),
+
+        invalid.writeStream.queryName("invalid_counts_to_postgres")
+        .option("checkpointLocation", f"{ckpt}/invalid_counts_to_postgres")
+        .foreachBatch(invalid_counts_writer(pg)).trigger(**trigger).start(),
     ]
     log.info("Started %d streaming queries: %s", len(queries), [q.name for q in queries])
     spark.streams.awaitAnyTermination()  # runs until one query fails or the container stops
