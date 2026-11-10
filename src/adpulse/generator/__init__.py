@@ -1,0 +1,1 @@
+"""Synthetic advertising event generator."""

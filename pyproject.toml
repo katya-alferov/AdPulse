@@ -1,0 +1,19 @@
+[project]
+name = "adpulse"
+version = "1.0.0"
+description = "AdPulse - a free, local, real-time AdTech analytics learning platform (Kafka, Spark, S3, PostgreSQL, FastAPI, Streamlit)"
+requires-python = ">=3.10"
+readme = "README.md"
+license = { text = "MIT" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "spark_jobs"]
+testpaths = ["tests"]
+markers = [
+    "integration: needs the full docker compose stack running",
+    "spark: needs PySpark + Java (run inside the spark container)",
+]
+addopts = "-ra"

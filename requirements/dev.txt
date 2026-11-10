@@ -1,0 +1,5 @@
+# Developer tools: tests + presentation generator.
+-r app.txt
+pytest==8.3.4
+httpx==0.28.1
+python-pptx==1.0.2

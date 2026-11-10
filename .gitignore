@@ -1,0 +1,43 @@
+# ---- Secrets: never commit ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+credentials
+.aws/
+secrets/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---- Generated data (large, reproducible) ----
+data/
+checkpoints/
+spark-warehouse/
+metastore_db/
+derby.log
+*.parquet
+*.log
+tmp/
+
+# ---- Docker build helper (sandbox-only proxy CA certs) ----
+docker/certs/*
+!docker/certs/.gitkeep
+
+# ---- OS / IDE ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
