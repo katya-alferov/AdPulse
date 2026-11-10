@@ -1,34 +1,34 @@
 [
  {
-  "validation_error": "malformed_json",
-  "event_count": 99
+  "validation_error": "event_time_in_future",
+  "event_count": 68
  },
  {
-  "validation_error": "event_time_in_future",
-  "event_count": 91
+  "validation_error": "malformed_json",
+  "event_count": 63
  },
  {
   "validation_error": "negative_amount",
-  "event_count": 85
+  "event_count": 62
  },
  {
   "validation_error": "invalid_event_type",
-  "event_count": 83
- },
- {
-  "validation_error": "missing_field:user_id",
-  "event_count": 25
- },
- {
-  "validation_error": "missing_field:publisher_id",
-  "event_count": 23
- },
- {
-  "validation_error": "missing_field:event_time",
-  "event_count": 22
+  "event_count": 48
  },
  {
   "validation_error": "missing_field:campaign_id",
-  "event_count": 19
+  "event_count": 22
+ },
+ {
+  "validation_error": "missing_field:publisher_id",
+  "event_count": 15
+ },
+ {
+  "validation_error": "missing_field:user_id",
+  "event_count": 14
+ },
+ {
+  "validation_error": "missing_field:event_time",
+  "event_count": 12
  }
 ]

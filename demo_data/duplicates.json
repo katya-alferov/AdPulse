@@ -1,1602 +1,1602 @@
 [
  {
-  "event_id": "4147d49e-1f3c-42a8-952a-32422bff355b",
-  "event_type": "impression",
-  "campaign_id": "cmp_002",
-  "user_id": "u_003119",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:41.419916Z"
- },
- {
-  "event_id": "a053f7be-ba1f-4b93-b6a0-e17f19f56c02",
-  "event_type": "impression",
-  "campaign_id": "cmp_003",
-  "user_id": "u_004752",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:41.419916Z"
- },
- {
-  "event_id": "b50fe86a-c253-4c11-af42-313d01cd6c61",
-  "event_type": "impression",
-  "campaign_id": "cmp_001",
-  "user_id": "u_004125",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:41.419916Z"
- },
- {
-  "event_id": "083e170e-ec8a-47ca-b865-a608f39159da",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_003381",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:41.419916Z"
- },
- {
-  "event_id": "c918d4b6-e417-4d6a-abca-10c3135a6117",
-  "event_type": "impression",
-  "campaign_id": "cmp_005",
-  "user_id": "u_002683",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:41.419916Z"
- },
- {
-  "event_id": "3f3d53b8-19ee-46c1-8d1e-58ece2953493",
-  "event_type": "impression",
-  "campaign_id": "cmp_008",
-  "user_id": "u_004759",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:41.419916Z"
- },
- {
-  "event_id": "f1511336-d00d-47fa-a5fe-5efb0b61dae6",
-  "event_type": "impression",
-  "campaign_id": "cmp_001",
-  "user_id": "u_004389",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:41.419916Z"
- },
- {
-  "event_id": "5637929d-db63-4560-b43a-7b4e84b45f3f",
-  "event_type": "impression",
-  "campaign_id": "cmp_008",
-  "user_id": "u_004927",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:41.419916Z"
- },
- {
-  "event_id": "c987edb5-49de-4308-98a7-cd808d9c5570",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_004908",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:41.419916Z"
- },
- {
-  "event_id": "4e3135e2-6e12-4a89-917d-a862ac0637f5",
-  "event_type": "impression",
-  "campaign_id": "cmp_002",
-  "user_id": "u_000185",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:41.419916Z"
- },
- {
-  "event_id": "11183267-74a6-47a7-88a5-0f886be0f061",
-  "event_type": "impression",
-  "campaign_id": "cmp_001",
-  "user_id": "u_002238",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:41.419916Z"
- },
- {
-  "event_id": "ec0eeb65-0153-48d6-8e05-7992c81f8757",
-  "event_type": "impression",
-  "campaign_id": "cmp_008",
-  "user_id": "u_004770",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:41.419916Z"
- },
- {
-  "event_id": "6b5d929c-b022-4789-bd56-ef81e391ecdd",
-  "event_type": "impression",
-  "campaign_id": "cmp_008",
-  "user_id": "u_003520",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:41.419916Z"
- },
- {
-  "event_id": "66142212-84eb-404e-89db-61f7dfbe73aa",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_002144",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:20.856047Z"
- },
- {
-  "event_id": "d0c5aec9-4bea-4014-aefa-dee0b4929fb3",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_004800",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:20.856047Z"
- },
- {
-  "event_id": "c700019c-c08f-4dd8-87c4-ef7e79ff7a4d",
-  "event_type": "impression",
-  "campaign_id": "cmp_005",
-  "user_id": "u_001457",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:20.856047Z"
- },
- {
-  "event_id": "fe693510-6cc6-4ef9-a19e-76a3c7022097",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_001932",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:20.856047Z"
- },
- {
-  "event_id": "f210e0e3-f2c8-49c8-8cad-b8d18255c0c0",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_004722",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:20.856047Z"
- },
- {
-  "event_id": "467364c4-3b55-4b2d-a353-0ca97918d914",
-  "event_type": "impression",
-  "campaign_id": "cmp_007",
-  "user_id": "u_002977",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:20.856047Z"
- },
- {
-  "event_id": "cdcc382f-03c3-4fe3-bf50-f2439363f942",
-  "event_type": "impression",
-  "campaign_id": "cmp_003",
-  "user_id": "u_002739",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:20.856047Z"
- },
- {
-  "event_id": "4bfeac49-81ba-4d19-8c63-574043ae38f4",
-  "event_type": "impression",
-  "campaign_id": "cmp_007",
-  "user_id": "u_002901",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:20.856047Z"
- },
- {
-  "event_id": "a65326fb-5c63-4c7a-821b-0cf2e70aeb88",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_000974",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:20.856047Z"
- },
- {
-  "event_id": "4fec235f-09e2-4cb3-a84d-2b4fe512efa8",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_001175",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:20.856047Z"
- },
- {
-  "event_id": "6fa30e0d-0f55-47d8-87cb-a10c13e86dfd",
-  "event_type": "impression",
-  "campaign_id": "cmp_003",
-  "user_id": "u_002218",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:20.856047Z"
- },
- {
-  "event_id": "1506b06f-533c-4e16-936e-d7b7bd7c23f4",
-  "event_type": "conversion",
-  "campaign_id": "cmp_007",
-  "user_id": "u_004932",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:20.856047Z"
- },
- {
-  "event_id": "d7a03ae5-0c6f-407b-9cab-2ab5bfcb782c",
-  "event_type": "impression",
-  "campaign_id": "cmp_008",
-  "user_id": "u_004232",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:20.856047Z"
- },
- {
-  "event_id": "547f9e21-4baf-49ee-82dc-ec2429c27b98",
-  "event_type": "impression",
-  "campaign_id": "cmp_003",
-  "user_id": "u_000676",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:20.856047Z"
- },
- {
-  "event_id": "357ff26a-d88e-4d1d-bdca-fae755be288d",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_001035",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:20.856047Z"
- },
- {
-  "event_id": "6294f663-3833-4319-85de-bfdabf2ccb8e",
-  "event_type": "impression",
-  "campaign_id": "cmp_003",
-  "user_id": "u_003899",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:20.856047Z"
- },
- {
-  "event_id": "d61d077e-0871-491e-a254-16e6ae0aa52f",
-  "event_type": "click",
-  "campaign_id": "cmp_001",
-  "user_id": "u_004174",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:02.572539Z"
- },
- {
-  "event_id": "3844ad8e-fc64-439d-b733-d21c84f3dc0a",
-  "event_type": "impression",
-  "campaign_id": "cmp_001",
-  "user_id": "u_004188",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:02.572539Z"
- },
- {
-  "event_id": "8f5cc1cb-b06f-4c35-83b1-dd56ab4696d9",
-  "event_type": "impression",
-  "campaign_id": "cmp_008",
-  "user_id": "u_000583",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:02.572539Z"
- },
- {
-  "event_id": "8f8f6be4-3ea8-4b27-a2f7-c7dba3376d98",
-  "event_type": "impression",
-  "campaign_id": "cmp_001",
-  "user_id": "u_004874",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:02.572539Z"
- },
- {
-  "event_id": "fed9e8ba-17b2-474f-94c1-c4be815faf90",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_004899",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:02.572539Z"
- },
- {
-  "event_id": "0b7d2cbf-fea0-49ee-80a7-689a33053c1f",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_001688",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:02.572539Z"
- },
- {
-  "event_id": "ed55c01a-a223-4f35-99b8-0889497f74d9",
-  "event_type": "impression",
-  "campaign_id": "cmp_003",
-  "user_id": "u_004377",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:02.572539Z"
- },
- {
-  "event_id": "b63652af-9db4-463b-a4be-a73019023084",
-  "event_type": "impression",
-  "campaign_id": "cmp_003",
-  "user_id": "u_001795",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:02.572539Z"
- },
- {
-  "event_id": "19441bb2-57c8-4cc1-a302-03b6e0f93596",
-  "event_type": "impression",
-  "campaign_id": "cmp_007",
-  "user_id": "u_000578",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:02.572539Z"
- },
- {
-  "event_id": "5a7f52b5-6070-4b00-b2bf-28025732ad94",
-  "event_type": "impression",
-  "campaign_id": "cmp_005",
-  "user_id": "u_001898",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:02.572539Z"
- },
- {
-  "event_id": "edba63ff-85a8-4bad-911c-6cb8f6b5c871",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_001744",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:02.572539Z"
- },
- {
-  "event_id": "56bdb725-a21c-4dbe-89fd-de3c17166acb",
-  "event_type": "click",
-  "campaign_id": "cmp_004",
-  "user_id": "u_000395",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:02.572539Z"
- },
- {
-  "event_id": "0feedf58-3026-4e3a-8743-07f0777e605b",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_001375",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:02.572539Z"
- },
- {
-  "event_id": "55367bb4-6af8-41fa-90fa-ae23caf797f2",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_000146",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:02.572539Z"
- },
- {
-  "event_id": "20674e1d-948a-4172-8dd6-f5ef704b7297",
-  "event_type": "impression",
-  "campaign_id": "cmp_007",
-  "user_id": "u_003752",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:02.572539Z"
- },
- {
-  "event_id": "1ab07379-9d63-43c3-9028-048406da4d9e",
-  "event_type": "impression",
-  "campaign_id": "cmp_001",
-  "user_id": "u_001926",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:02.572539Z"
- },
- {
-  "event_id": "83188791-fa7f-43ee-a112-9b6cde3cf03b",
-  "event_type": "impression",
-  "campaign_id": "cmp_001",
-  "user_id": "u_004850",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:02.572539Z"
- },
- {
-  "event_id": "5cd1f2ba-8f55-4fd0-8ed5-8479fe748457",
-  "event_type": "impression",
-  "campaign_id": "cmp_002",
-  "user_id": "u_000817",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:02.572539Z"
- },
- {
-  "event_id": "161d423d-a6b8-42b3-8244-575acc0abfa8",
-  "event_type": "impression",
-  "campaign_id": "cmp_001",
-  "user_id": "u_000535",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:02.572539Z"
- },
- {
-  "event_id": "9b236eb1-88f2-43fe-94e0-4bb563b2e71c",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_000395",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:19:02.572539Z"
- },
- {
-  "event_id": "5dd9bdd5-f903-4672-b9fd-7d8305386b9d",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_004171",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:41.147041Z"
- },
- {
-  "event_id": "122d3a4f-22da-4cdb-94ec-fe8ce2a4898e",
-  "event_type": "impression",
-  "campaign_id": "cmp_003",
-  "user_id": "u_001946",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:41.147041Z"
- },
- {
-  "event_id": "3ea46b6a-5e6b-4ff9-bd56-156f868da111",
+  "event_id": "b1354149-a3de-4ba7-8256-f65b6c33ff2b",
   "event_type": "click",
   "campaign_id": "cmp_005",
-  "user_id": "bot_024",
+  "user_id": "u_001392",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:41.147041Z"
+  "detected_at": "2026-11-10T22:39:23.217444Z"
  },
  {
-  "event_id": "5e148e7b-5817-41d8-a47a-4d78750f8cc7",
+  "event_id": "64ed1a20-ec28-4bf4-9629-fcbcaa77c6d5",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_002468",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:23.217444Z"
+ },
+ {
+  "event_id": "bbf58d5c-f571-473d-b570-e84ad12808e5",
   "event_type": "impression",
   "campaign_id": "cmp_008",
-  "user_id": "u_000375",
+  "user_id": "u_001233",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:41.147041Z"
+  "detected_at": "2026-11-10T22:39:23.217444Z"
  },
  {
-  "event_id": "7e04f827-f72a-4369-af38-ec8170e2c1e3",
+  "event_id": "5172ced8-ab14-4e8a-89fa-dc6eba665fcb",
+  "event_type": "impression",
+  "campaign_id": "cmp_005",
+  "user_id": "u_000552",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:23.217444Z"
+ },
+ {
+  "event_id": "7077180e-d513-4950-b2c6-42ac8fb4b9b6",
+  "event_type": "impression",
+  "campaign_id": "cmp_008",
+  "user_id": "u_002158",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:23.217444Z"
+ },
+ {
+  "event_id": "5b35d7ea-2cc0-49b5-99e0-f1af3842d19a",
+  "event_type": "impression",
+  "campaign_id": "cmp_008",
+  "user_id": "u_003526",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:23.217444Z"
+ },
+ {
+  "event_id": "b5c4db7d-42c1-421b-b36b-05d36196f813",
+  "event_type": "click",
+  "campaign_id": "cmp_004",
+  "user_id": "u_002742",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:23.217444Z"
+ },
+ {
+  "event_id": "bdcbdec6-0b07-412b-a744-b7deec8e1b59",
   "event_type": "impression",
   "campaign_id": "cmp_001",
-  "user_id": "u_004519",
+  "user_id": "u_002070",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:41.147041Z"
+  "detected_at": "2026-11-10T22:39:23.217444Z"
  },
  {
-  "event_id": "0b331fdb-b43c-4d5a-bab4-6b3966d24f8a",
+  "event_id": "b1f18be4-0875-4bbb-85b5-9ac020d5f10f",
+  "event_type": "click",
+  "campaign_id": "cmp_007",
+  "user_id": "u_004707",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:23.217444Z"
+ },
+ {
+  "event_id": "b446eee6-4da9-44c6-b73d-ed13f195fad6",
   "event_type": "impression",
   "campaign_id": "cmp_008",
-  "user_id": "u_001657",
+  "user_id": "u_004531",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:41.147041Z"
+  "detected_at": "2026-11-10T22:39:23.217444Z"
  },
  {
-  "event_id": "5937cfb2-b306-4322-8faa-69c679359641",
+  "event_id": "e3fc1315-dc12-4459-a8dd-d47853f22c43",
+  "event_type": "impression",
+  "campaign_id": "cmp_007",
+  "user_id": "u_003934",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:23.217444Z"
+ },
+ {
+  "event_id": "6ab7c857-1474-433b-9c1b-dcf0c776fef8",
+  "event_type": "impression",
+  "campaign_id": "cmp_008",
+  "user_id": "u_001172",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:23.217444Z"
+ },
+ {
+  "event_id": "d8d9812f-a591-4ada-90eb-18393f591427",
+  "event_type": "impression",
+  "campaign_id": "cmp_005",
+  "user_id": "u_000728",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:23.217444Z"
+ },
+ {
+  "event_id": "404a54b0-d463-4fca-bd7c-bf6bb271f72f",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_003821",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:00.905656Z"
+ },
+ {
+  "event_id": "bd2fbf55-87db-4d2f-87e2-89669f823ec9",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_004320",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:00.905656Z"
+ },
+ {
+  "event_id": "4b8e4eda-2dbc-432e-9f9f-c483d262e46e",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_004059",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:00.905656Z"
+ },
+ {
+  "event_id": "2e99b8f8-3c61-49dd-9b24-777795c9ee38",
+  "event_type": "impression",
+  "campaign_id": "cmp_008",
+  "user_id": "u_003572",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:00.905656Z"
+ },
+ {
+  "event_id": "1baed8b5-b1c0-4227-8961-e3f6db9f50d4",
+  "event_type": "impression",
+  "campaign_id": "cmp_007",
+  "user_id": "u_004559",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:00.905656Z"
+ },
+ {
+  "event_id": "c18810dd-bf8d-465a-b93e-14aba5905192",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_000076",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:00.905656Z"
+ },
+ {
+  "event_id": "1f2d9f49-b336-4d74-8547-d788587760fa",
   "event_type": "impression",
   "campaign_id": "cmp_002",
-  "user_id": "u_003880",
+  "user_id": "u_002629",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:41.147041Z"
+  "detected_at": "2026-11-10T22:39:00.905656Z"
  },
  {
-  "event_id": "14b1983e-2538-4bee-9127-563d0514410e",
+  "event_id": "a894b94c-3d69-4296-9714-1104b8110e74",
   "event_type": "impression",
-  "campaign_id": "cmp_003",
-  "user_id": "u_001573",
+  "campaign_id": "cmp_008",
+  "user_id": "u_000482",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:41.147041Z"
+  "detected_at": "2026-11-10T22:39:00.905656Z"
  },
  {
-  "event_id": "e66b01ed-4c28-402c-b53d-0be1ffa90e31",
+  "event_id": "1f6254c2-cfbe-4002-bf17-b896de3a95ac",
   "event_type": "impression",
   "campaign_id": "cmp_001",
+  "user_id": "u_004157",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:00.905656Z"
+ },
+ {
+  "event_id": "bd8a21db-9b8c-4918-a0ac-a861a44dc0bc",
+  "event_type": "impression",
+  "campaign_id": "cmp_002",
+  "user_id": "u_004408",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:00.905656Z"
+ },
+ {
+  "event_id": "3f6a2e18-c670-4b8f-93b9-69339f974025",
+  "event_type": "impression",
+  "campaign_id": "cmp_008",
+  "user_id": "u_004768",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:00.905656Z"
+ },
+ {
+  "event_id": "9bc8c915-9f32-4cf8-bbbb-d91819be6a51",
+  "event_type": "impression",
+  "campaign_id": "cmp_006",
+  "user_id": "u_002329",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:00.905656Z"
+ },
+ {
+  "event_id": "2f74e89d-389f-4d8c-a4f0-bd5e1e6a528d",
+  "event_type": "impression",
+  "campaign_id": "cmp_007",
+  "user_id": "u_002494",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:00.905656Z"
+ },
+ {
+  "event_id": "5113646c-5291-495c-b7f4-f309a9da7de5",
+  "event_type": "impression",
+  "campaign_id": "cmp_006",
+  "user_id": "u_000558",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:00.905656Z"
+ },
+ {
+  "event_id": "829fc5de-64b1-4d06-a9c0-0815fc8ca7b3",
+  "event_type": "impression",
+  "campaign_id": "cmp_002",
+  "user_id": "u_001158",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:00.905656Z"
+ },
+ {
+  "event_id": "0abe409b-b5e8-445e-b8bf-9c0ddbfd9a2c",
+  "event_type": "impression",
+  "campaign_id": "cmp_001",
+  "user_id": "u_004776",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:00.905656Z"
+ },
+ {
+  "event_id": "dc1dc62c-fa4a-41bc-976e-9e405e613d17",
+  "event_type": "impression",
+  "campaign_id": "cmp_005",
+  "user_id": "u_000888",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:39:00.905656Z"
+ },
+ {
+  "event_id": "9383cd26-3c88-4d77-851c-9b7c4ee3ca69",
+  "event_type": "impression",
+  "campaign_id": "cmp_008",
+  "user_id": "u_003231",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:41.286878Z"
+ },
+ {
+  "event_id": "f9f99486-a1ae-4547-b692-aa03c31f8995",
+  "event_type": "impression",
+  "campaign_id": "cmp_005",
+  "user_id": "u_000797",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:41.286878Z"
+ },
+ {
+  "event_id": "0a80d229-0ade-4947-8e4a-9df1602544f4",
+  "event_type": "impression",
+  "campaign_id": "cmp_005",
+  "user_id": "u_001414",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:41.286878Z"
+ },
+ {
+  "event_id": "3580c28f-d653-4e33-a851-9bba10b9d106",
+  "event_type": "impression",
+  "campaign_id": "cmp_007",
+  "user_id": "u_002334",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:41.286878Z"
+ },
+ {
+  "event_id": "c1f88e31-0053-4bfb-9a32-ebab1e9a84e5",
+  "event_type": "impression",
+  "campaign_id": "cmp_001",
+  "user_id": "u_002976",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:41.286878Z"
+ },
+ {
+  "event_id": "3a8276a6-550d-4127-b04f-3245918be302",
+  "event_type": "impression",
+  "campaign_id": "cmp_007",
+  "user_id": "u_000218",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:41.286878Z"
+ },
+ {
+  "event_id": "86af915d-1a26-429d-b2cb-9d36fd7e76ee",
+  "event_type": "impression",
+  "campaign_id": "cmp_006",
+  "user_id": "u_000250",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:41.286878Z"
+ },
+ {
+  "event_id": "9abbede5-7f02-4606-8385-208f83bf350e",
+  "event_type": "impression",
+  "campaign_id": "cmp_003",
+  "user_id": "u_002358",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:41.286878Z"
+ },
+ {
+  "event_id": "547a898e-5940-43df-991e-d632443a0334",
+  "event_type": "click",
+  "campaign_id": "cmp_002",
+  "user_id": "u_004372",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:41.286878Z"
+ },
+ {
+  "event_id": "0d44aa75-e6be-419e-b7dd-fd71f5d2ef0d",
+  "event_type": "impression",
+  "campaign_id": "cmp_001",
+  "user_id": "u_002858",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:41.286878Z"
+ },
+ {
+  "event_id": "daaefa2a-450a-4a92-a0a6-c715e1d8f74d",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_004143",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:41.286878Z"
+ },
+ {
+  "event_id": "fc369850-52e0-4e70-8d85-e53d666de85a",
+  "event_type": "impression",
+  "campaign_id": "cmp_006",
+  "user_id": "u_004211",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:41.286878Z"
+ },
+ {
+  "event_id": "1d8afcde-2d51-464b-9eaf-53f91de5f261",
+  "event_type": "impression",
+  "campaign_id": "cmp_005",
+  "user_id": "u_004651",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:41.286878Z"
+ },
+ {
+  "event_id": "43fe0d8f-a1f6-427c-9e26-94cbb67c77f8",
+  "event_type": "impression",
+  "campaign_id": "cmp_006",
+  "user_id": "u_002728",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:41.286878Z"
+ },
+ {
+  "event_id": "d77847a0-d8b7-4a2f-bfaf-42767b898326",
+  "event_type": "impression",
+  "campaign_id": "cmp_007",
+  "user_id": "u_000972",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:41.286878Z"
+ },
+ {
+  "event_id": "39f60a04-3d6c-43de-a83e-4de24871f3d3",
+  "event_type": "impression",
+  "campaign_id": "cmp_001",
+  "user_id": "u_001348",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:41.286878Z"
+ },
+ {
+  "event_id": "9a74681c-ee24-404f-958b-f46a2d6d623f",
+  "event_type": "impression",
+  "campaign_id": "cmp_007",
+  "user_id": "u_001103",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:41.286878Z"
+ },
+ {
+  "event_id": "9b07db4a-aa28-4e15-9d85-863ab83de9b6",
+  "event_type": "impression",
+  "campaign_id": "cmp_007",
+  "user_id": "u_000197",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:41.286878Z"
+ },
+ {
+  "event_id": "d7ed3f0b-123e-4e58-808b-05c0d057f284",
+  "event_type": "impression",
+  "campaign_id": "cmp_005",
+  "user_id": "u_004040",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:41.286878Z"
+ },
+ {
+  "event_id": "078650ac-f08d-4d56-82ea-800ffa858d2d",
+  "event_type": "click",
+  "campaign_id": "cmp_004",
+  "user_id": "bot_045",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:21.204101Z"
+ },
+ {
+  "event_id": "2df66f80-3114-4ce0-ad6d-403740d9b0cf",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_001055",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:21.204101Z"
+ },
+ {
+  "event_id": "7e89e162-95a8-4690-a793-95b47eef7c3a",
+  "event_type": "impression",
+  "campaign_id": "cmp_006",
   "user_id": "u_002707",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:41.147041Z"
+  "detected_at": "2026-11-10T22:38:21.204101Z"
  },
  {
-  "event_id": "88e9ec62-2664-4e1a-b435-0239df579931",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_002271",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:41.147041Z"
- },
- {
-  "event_id": "b1cf4b71-e22d-4d19-ace2-8ac471c27b85",
+  "event_id": "95ca8e3d-effd-4358-ab9e-c028ec6a5710",
   "event_type": "impression",
   "campaign_id": "cmp_001",
-  "user_id": "u_001681",
+  "user_id": "u_003213",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:41.147041Z"
+  "detected_at": "2026-11-10T22:38:21.204101Z"
  },
  {
-  "event_id": "49d11d02-49d2-4f56-b733-b2bb4aed70bf",
+  "event_id": "1cf82aaf-fe1b-4d76-a2c9-51e809556d26",
+  "event_type": "impression",
+  "campaign_id": "cmp_006",
+  "user_id": "u_002278",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:21.204101Z"
+ },
+ {
+  "event_id": "5123aa1e-e9a2-4ce0-9af5-6478720d0b14",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_001607",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:21.204101Z"
+ },
+ {
+  "event_id": "d7f76fdf-0c4e-4067-8d25-3827891c68de",
   "event_type": "impression",
   "campaign_id": "cmp_001",
-  "user_id": "u_000480",
+  "user_id": "u_003697",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:41.147041Z"
+  "detected_at": "2026-11-10T22:38:21.204101Z"
  },
  {
-  "event_id": "7a1da0ca-34e9-4bb4-930d-0af7d3560502",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_003854",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:41.147041Z"
- },
- {
-  "event_id": "156c5908-2728-4328-a855-3a88ff01b89e",
+  "event_id": "6c7b7c3c-0d7d-46dd-8c49-b6f14e4c5add",
   "event_type": "impression",
   "campaign_id": "cmp_002",
-  "user_id": "u_000264",
+  "user_id": "u_004863",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:20.845428Z"
+  "detected_at": "2026-11-10T22:38:21.204101Z"
  },
  {
-  "event_id": "fd0142a0-10f1-4e14-ac2b-a8c72b2180c5",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_004404",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:20.845428Z"
- },
- {
-  "event_id": "820446fa-7466-4717-a2e1-2b8f1b3c10fc",
+  "event_id": "d91630ac-49da-4dcd-b596-d2d6c7ae6e11",
   "event_type": "impression",
   "campaign_id": "cmp_001",
-  "user_id": "u_004001",
+  "user_id": "u_000442",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:20.845428Z"
+  "detected_at": "2026-11-10T22:38:21.204101Z"
  },
  {
-  "event_id": "68c3e594-cb74-4218-b9f0-f897ea3e1b0e",
-  "event_type": "impression",
-  "campaign_id": "cmp_008",
-  "user_id": "u_000611",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:20.845428Z"
- },
- {
-  "event_id": "228c2950-84ac-4f46-91f6-2f52c18f93a1",
-  "event_type": "impression",
-  "campaign_id": "cmp_002",
-  "user_id": "u_002715",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:20.845428Z"
- },
- {
-  "event_id": "c80b7f71-a1fe-400b-8856-39991bd898d4",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_004452",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:20.845428Z"
- },
- {
-  "event_id": "96ad5b18-b444-444b-9cec-552872af0711",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_002370",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:20.845428Z"
- },
- {
-  "event_id": "2f2e1d2a-1bfc-4af0-98da-560c7343a24e",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_001182",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:20.845428Z"
- },
- {
-  "event_id": "405f9ba5-6c71-4f36-9eba-0291cf94ea84",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_001393",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:20.845428Z"
- },
- {
-  "event_id": "e5fa139a-5c9b-4f4e-b2cb-d63ea64deb31",
-  "event_type": "impression",
-  "campaign_id": "cmp_002",
-  "user_id": "u_003640",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:20.845428Z"
- },
- {
-  "event_id": "344f204c-401c-47ea-9a59-a79d9990064a",
+  "event_id": "15eec8ee-9162-445e-8001-c608e2bcaaf3",
   "event_type": "impression",
   "campaign_id": "cmp_003",
-  "user_id": "u_001485",
+  "user_id": "u_004453",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:20.845428Z"
+  "detected_at": "2026-11-10T22:38:21.204101Z"
  },
  {
-  "event_id": "ac3e4ca7-1d7c-4963-ac1f-a9420a5b6ab9",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_000926",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:01.439528Z"
- },
- {
-  "event_id": "1765f92f-c2b0-4048-9d17-4d859beb5f88",
-  "event_type": "impression",
-  "campaign_id": "cmp_007",
-  "user_id": "u_004854",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:01.439528Z"
- },
- {
-  "event_id": "ce892fab-aba2-4d84-93a4-5371ade0a940",
-  "event_type": "impression",
-  "campaign_id": "cmp_005",
-  "user_id": "u_001859",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:01.439528Z"
- },
- {
-  "event_id": "752a8fb8-0364-4250-bdea-3245b27843e8",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_001957",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:01.439528Z"
- },
- {
-  "event_id": "4970640b-44cb-4853-8c3a-4fe43f4cb906",
-  "event_type": "impression",
-  "campaign_id": "cmp_003",
-  "user_id": "u_002720",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:01.439528Z"
- },
- {
-  "event_id": "5bf20e55-446e-4ab9-b524-aa1c5ef912c9",
-  "event_type": "impression",
-  "campaign_id": "cmp_008",
-  "user_id": "u_003296",
-  "occurrences": 3,
-  "detected_at": "2026-11-10T22:18:01.439528Z"
- },
- {
-  "event_id": "fca3c380-cff3-40a4-ba62-2fde52bc5603",
+  "event_id": "60627573-851c-4ef0-b57f-8eed7ff84fae",
   "event_type": "impression",
   "campaign_id": "cmp_001",
-  "user_id": "u_002717",
+  "user_id": "u_002879",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:01.439528Z"
+  "detected_at": "2026-11-10T22:38:21.204101Z"
  },
  {
-  "event_id": "0092e381-8dcb-4b4a-93ea-66a160c4abd9",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_001471",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:01.439528Z"
- },
- {
-  "event_id": "84f76cc4-37dd-4c18-b0ca-88b674b11a8c",
-  "event_type": "impression",
-  "campaign_id": "cmp_008",
-  "user_id": "u_001441",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:01.439528Z"
- },
- {
-  "event_id": "e90cc837-e7b6-4869-9f76-1deb06e17886",
+  "event_id": "7b28249c-44c9-4d13-9f37-295e0eef9758",
   "event_type": "impression",
   "campaign_id": "cmp_004",
-  "user_id": "u_003121",
+  "user_id": "u_002248",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:01.439528Z"
+  "detected_at": "2026-11-10T22:38:21.204101Z"
  },
  {
-  "event_id": "a37facc9-0049-4728-b041-50522d39706e",
-  "event_type": "impression",
-  "campaign_id": "cmp_008",
-  "user_id": "u_004520",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:01.439528Z"
- },
- {
-  "event_id": "104de94c-030e-4baf-b82d-932fc8ed0e08",
+  "event_id": "279c38e7-cd17-4f16-85b2-48b60ce154d2",
   "event_type": "impression",
   "campaign_id": "cmp_003",
-  "user_id": "u_003458",
+  "user_id": "u_004093",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:01.439528Z"
+  "detected_at": "2026-11-10T22:38:21.204101Z"
  },
  {
-  "event_id": "2db1d0f8-8d33-4557-bccd-c306b41d89d7",
+  "event_id": "bae4a9fc-f2cd-4107-a4f6-3d4fbd298607",
   "event_type": "impression",
   "campaign_id": "cmp_002",
-  "user_id": "u_004679",
+  "user_id": "u_000646",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:01.439528Z"
+  "detected_at": "2026-11-10T22:38:21.204101Z"
  },
  {
-  "event_id": "38a08659-200e-4101-980d-a9d67ac151b5",
+  "event_id": "ba9bd4dc-f46f-47af-a435-7d9a5540382c",
   "event_type": "impression",
-  "campaign_id": "cmp_002",
-  "user_id": "u_004299",
+  "campaign_id": "cmp_001",
+  "user_id": "u_001499",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:01.439528Z"
+  "detected_at": "2026-11-10T22:38:21.204101Z"
  },
  {
-  "event_id": "c749516a-617c-417e-83b5-31e588c4c92b",
+  "event_id": "1663d243-5a23-4dea-a0b8-163681fe47cc",
   "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_004777",
+  "campaign_id": "cmp_008",
+  "user_id": "u_003415",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:01.439528Z"
+  "detected_at": "2026-11-10T22:38:21.204101Z"
  },
  {
-  "event_id": "e496b3d5-aa47-454e-8a8d-f2889d3b31ee",
-  "event_type": "impression",
-  "campaign_id": "cmp_007",
-  "user_id": "u_001448",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:01.439528Z"
- },
- {
-  "event_id": "ae8c9ec1-3850-4657-bd25-3d4af84fa028",
+  "event_id": "5c9414a7-b30c-425a-a995-14dc9f0aa601",
   "event_type": "click",
-  "campaign_id": "cmp_008",
-  "user_id": "u_004625",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:01.439528Z"
- },
- {
-  "event_id": "be06a08d-d5a5-4642-8f9e-523b9ceade76",
-  "event_type": "impression",
-  "campaign_id": "cmp_007",
-  "user_id": "u_000293",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:01.439528Z"
- },
- {
-  "event_id": "35158fb1-c4a9-4e3f-b9f8-38722c53d5eb",
-  "event_type": "impression",
-  "campaign_id": "cmp_003",
-  "user_id": "u_002775",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:01.439528Z"
- },
- {
-  "event_id": "33e46ca5-9466-473b-9184-9a42f60bda9b",
-  "event_type": "impression",
-  "campaign_id": "cmp_002",
-  "user_id": "u_002127",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:18:01.439528Z"
- },
- {
-  "event_id": "1a102028-591a-40e4-a237-0b6abaa447d4",
-  "event_type": "impression",
-  "campaign_id": "cmp_008",
-  "user_id": "u_000954",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
- },
- {
-  "event_id": "4859d9d0-5c3d-434c-aeaa-2b7c6051e15b",
-  "event_type": "impression",
-  "campaign_id": "cmp_003",
-  "user_id": "u_002885",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
- },
- {
-  "event_id": "ba819274-2b96-4faf-8a05-d3d68f29f2ee",
-  "event_type": "impression",
-  "campaign_id": "cmp_003",
-  "user_id": "u_002091",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
- },
- {
-  "event_id": "bebf2855-dad6-4498-8baa-60a9b535382a",
-  "event_type": "impression",
   "campaign_id": "cmp_004",
-  "user_id": "u_004565",
+  "user_id": "bot_045",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
+  "detected_at": "2026-11-10T22:38:21.204101Z"
  },
  {
-  "event_id": "6c62b25b-0689-4f32-a00b-138848482e36",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_003445",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
- },
- {
-  "event_id": "3acd594e-af14-400b-9ad5-7030d00061e6",
+  "event_id": "2b359a76-42d0-4d5c-893c-a099b16affa7",
   "event_type": "impression",
   "campaign_id": "cmp_008",
-  "user_id": "u_003881",
+  "user_id": "u_003347",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
+  "detected_at": "2026-11-10T22:38:21.204101Z"
  },
  {
-  "event_id": "b6740fdf-a40b-4d5e-a389-b09423649cc8",
+  "event_id": "5839e7ce-2164-40a2-92a3-55a3cf11ad45",
+  "event_type": "impression",
+  "campaign_id": "cmp_003",
+  "user_id": "u_003272",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:01.428491Z"
+ },
+ {
+  "event_id": "4ee40c49-ee72-4158-8f49-da3f107330ed",
   "event_type": "impression",
   "campaign_id": "cmp_007",
-  "user_id": "u_000309",
+  "user_id": "u_004499",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
+  "detected_at": "2026-11-10T22:38:01.428491Z"
  },
  {
-  "event_id": "b3fb120d-de63-45ab-bf1b-ef9319ca9fd9",
+  "event_id": "d5a6911f-c526-4686-8f48-6902a45b227a",
+  "event_type": "impression",
+  "campaign_id": "cmp_003",
+  "user_id": "u_003625",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:01.428491Z"
+ },
+ {
+  "event_id": "3e439a03-953f-4c63-9391-488f3157becf",
   "event_type": "impression",
   "campaign_id": "cmp_005",
-  "user_id": "u_003957",
+  "user_id": "u_003492",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
+  "detected_at": "2026-11-10T22:38:01.428491Z"
  },
  {
-  "event_id": "9245065c-a742-4589-afb0-20a1f8ab6417",
+  "event_id": "4aaa3e9c-7059-4f5c-928f-e0d33642fbcb",
   "event_type": "impression",
-  "campaign_id": "cmp_002",
-  "user_id": "u_001601",
+  "campaign_id": "cmp_001",
+  "user_id": "u_002374",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
+  "detected_at": "2026-11-10T22:38:01.428491Z"
  },
  {
-  "event_id": "3a59a6c9-aa83-4e89-97ec-a6ae1e34ce49",
+  "event_id": "000f8764-59c2-4c67-b3fb-acc58cbee58f",
   "event_type": "impression",
   "campaign_id": "cmp_007",
-  "user_id": "u_003177",
+  "user_id": "u_002427",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
+  "detected_at": "2026-11-10T22:38:01.428491Z"
  },
  {
-  "event_id": "b8bcffec-2bab-4fd3-9a94-eb601457fce4",
+  "event_id": "794641ce-7028-466c-b44f-45653df8103e",
   "event_type": "impression",
   "campaign_id": "cmp_008",
-  "user_id": "u_004569",
+  "user_id": "u_003834",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
+  "detected_at": "2026-11-10T22:38:01.428491Z"
  },
  {
-  "event_id": "5cdd7305-61e2-4dc1-8e1c-b691b7242334",
+  "event_id": "a414dafd-bf2a-4674-8b84-0f5488e3c1e5",
   "event_type": "impression",
   "campaign_id": "cmp_002",
-  "user_id": "u_004075",
+  "user_id": "u_003906",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
+  "detected_at": "2026-11-10T22:38:01.428491Z"
  },
  {
-  "event_id": "edd960ba-2fd4-48db-a064-e1ace7665b9d",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_000791",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
- },
- {
-  "event_id": "9b41daee-e7a0-4409-acfd-a53e13ba7ea1",
-  "event_type": "impression",
-  "campaign_id": "cmp_003",
-  "user_id": "u_003322",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
- },
- {
-  "event_id": "7bef6b03-e2df-4796-b6b4-ea65b7e75f39",
-  "event_type": "impression",
-  "campaign_id": "cmp_003",
-  "user_id": "u_000879",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
- },
- {
-  "event_id": "5180a15a-8199-4e6a-8aa7-fc316dc170fd",
+  "event_id": "bbf8eb2c-9fb7-4569-a557-ed2598322657",
   "event_type": "impression",
   "campaign_id": "cmp_005",
-  "user_id": "u_003315",
+  "user_id": "u_001332",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
+  "detected_at": "2026-11-10T22:38:01.428491Z"
  },
  {
-  "event_id": "f73a9783-d608-4927-9a57-8bae80037b3c",
+  "event_id": "1e2c8630-f004-4c4c-8d4f-178cf75512d1",
+  "event_type": "impression",
+  "campaign_id": "cmp_003",
+  "user_id": "u_000008",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:38:01.428491Z"
+ },
+ {
+  "event_id": "329fadf9-b19d-4c55-87be-cb8dfa5e1a68",
   "event_type": "impression",
   "campaign_id": "cmp_001",
-  "user_id": "u_004561",
+  "user_id": "u_002503",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
+  "detected_at": "2026-11-10T22:38:01.428491Z"
  },
  {
-  "event_id": "bc4bb7fd-6b6d-43c4-bed9-4e641cfe5664",
+  "event_id": "464475e7-2a03-418b-842b-c84acbc36a0f",
   "event_type": "impression",
-  "campaign_id": "cmp_002",
-  "user_id": "u_003342",
+  "campaign_id": "cmp_003",
+  "user_id": "u_000913",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
+  "detected_at": "2026-11-10T22:38:01.428491Z"
  },
  {
-  "event_id": "1f9fe115-0ee9-4070-8238-d32e2e1bfe93",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_001854",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
- },
- {
-  "event_id": "fd57e0f9-44f0-44bf-ae57-37fca8d4b39f",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_003210",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
- },
- {
-  "event_id": "88c935b7-824f-47c7-9c70-089c6403c80e",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_000280",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
- },
- {
-  "event_id": "052165de-cd46-474d-b495-2b21ce9e09fc",
-  "event_type": "impression",
-  "campaign_id": "cmp_001",
-  "user_id": "u_004038",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:41.449531Z"
- },
- {
-  "event_id": "2f354615-e32b-4135-a6b9-ea5e66988295",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_003495",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:20.987775Z"
- },
- {
-  "event_id": "88825d32-6008-493f-a593-199c2dc31c16",
-  "event_type": "impression",
-  "campaign_id": "cmp_008",
-  "user_id": "u_001828",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:20.987775Z"
- },
- {
-  "event_id": "8d9eea30-3477-4db0-93a0-570b07bb323d",
-  "event_type": "impression",
-  "campaign_id": "cmp_001",
-  "user_id": "u_000853",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:20.987775Z"
- },
- {
-  "event_id": "85e1baea-dd22-4f18-b0e2-d67299ab3140",
+  "event_id": "1fe50fa5-872c-4355-a73f-37c2acdf9753",
   "event_type": "impression",
   "campaign_id": "cmp_005",
-  "user_id": "u_001787",
+  "user_id": "u_001341",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:20.987775Z"
+  "detected_at": "2026-11-10T22:38:01.428491Z"
  },
  {
-  "event_id": "ee603cb3-eefc-48b0-9ecc-92ca62eed697",
+  "event_id": "8aa384c5-1f7b-4bc3-b9e0-cf456e6dbb89",
   "event_type": "impression",
   "campaign_id": "cmp_001",
-  "user_id": "u_003835",
+  "user_id": "u_003456",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:20.987775Z"
+  "detected_at": "2026-11-10T22:38:01.428491Z"
  },
  {
-  "event_id": "dfaf3549-7178-4a4c-9009-ef061055a573",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_001862",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:20.987775Z"
- },
- {
-  "event_id": "5e393d45-b565-4cef-8c57-f0a1979ce307",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_001610",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:20.987775Z"
- },
- {
-  "event_id": "6258f246-98ed-43eb-9f50-c9fbf9d18971",
-  "event_type": "impression",
-  "campaign_id": "cmp_003",
-  "user_id": "u_003541",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:20.987775Z"
- },
- {
-  "event_id": "f6280663-e83b-4cab-9864-43d921d9195f",
-  "event_type": "impression",
-  "campaign_id": "cmp_003",
-  "user_id": "u_004064",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:20.987775Z"
- },
- {
-  "event_id": "b78404d7-2e12-4500-aaca-035bbec53b6e",
-  "event_type": "impression",
-  "campaign_id": "cmp_008",
-  "user_id": "u_003372",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:20.987775Z"
- },
- {
-  "event_id": "fe7c45df-f9c4-4ae3-a624-e5b34192603c",
-  "event_type": "impression",
-  "campaign_id": "cmp_002",
-  "user_id": "u_002949",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:20.987775Z"
- },
- {
-  "event_id": "83f61fdb-bd6c-442e-be72-35f4cdf763b2",
-  "event_type": "impression",
-  "campaign_id": "cmp_003",
-  "user_id": "u_000865",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:20.987775Z"
- },
- {
-  "event_id": "3dd22770-17a3-451c-bd6b-9af4ed97435f",
-  "event_type": "impression",
-  "campaign_id": "cmp_001",
-  "user_id": "u_002578",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:20.987775Z"
- },
- {
-  "event_id": "83d2ff52-9ded-41cf-a715-5bbb7ce01530",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_001623",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:20.987775Z"
- },
- {
-  "event_id": "0276360e-b299-44ac-97cc-3797670705d5",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_004252",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:20.987775Z"
- },
- {
-  "event_id": "0782da3f-42a6-48d6-b0d5-4f22102a7fb6",
-  "event_type": "impression",
-  "campaign_id": "cmp_003",
-  "user_id": "u_002109",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:20.987775Z"
- },
- {
-  "event_id": "d30c5243-3cf1-4078-bd84-ae92086a667c",
+  "event_id": "d4265b79-e08a-420c-8630-193ed48e7228",
   "event_type": "impression",
   "campaign_id": "cmp_007",
-  "user_id": "u_000616",
+  "user_id": "u_003982",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:20.987775Z"
+  "detected_at": "2026-11-10T22:38:01.428491Z"
  },
  {
-  "event_id": "99a7adaa-8863-4995-8c19-8fec6af3a7f5",
+  "event_id": "83b1bb13-541a-4678-9ce8-8fb30ea46ac2",
   "event_type": "impression",
-  "campaign_id": "cmp_007",
-  "user_id": "u_000069",
+  "campaign_id": "cmp_003",
+  "user_id": "u_002070",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:01.095039Z"
+  "detected_at": "2026-11-10T22:38:01.428491Z"
  },
  {
-  "event_id": "fed7a1a5-136a-4428-8722-26703f2eb1b6",
+  "event_id": "f1ef4f7a-88e9-47ef-b88c-a246051cab1f",
   "event_type": "impression",
-  "campaign_id": "cmp_002",
-  "user_id": "u_001689",
+  "campaign_id": "cmp_001",
+  "user_id": "u_002308",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:01.095039Z"
+  "detected_at": "2026-11-10T22:38:01.428491Z"
  },
  {
-  "event_id": "c1f7faa5-0b98-49e4-883e-8edeb9a154e4",
+  "event_id": "a77f1dd7-fdd7-4f5a-9727-887ea92382a0",
   "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_000903",
+  "campaign_id": "cmp_006",
+  "user_id": "u_002402",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:01.095039Z"
+  "detected_at": "2026-11-10T22:38:01.428491Z"
  },
  {
-  "event_id": "2fa52e1c-7b27-420e-83a4-bc4868d44e68",
-  "event_type": "impression",
-  "campaign_id": "cmp_008",
-  "user_id": "u_003721",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:01.095039Z"
- },
- {
-  "event_id": "0210a402-dba7-4d7f-895f-40503946354e",
+  "event_id": "8aab162a-0150-42a2-b4c6-832f439a9294",
   "event_type": "impression",
   "campaign_id": "cmp_005",
-  "user_id": "u_001973",
+  "user_id": "u_004908",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:01.095039Z"
+  "detected_at": "2026-11-10T22:38:01.428491Z"
  },
  {
-  "event_id": "0ce3c2ce-4930-494e-b8d7-42a975138cae",
+  "event_id": "7688cf35-a7bf-4c8b-a334-fc26923ab4d4",
+  "event_type": "impression",
+  "campaign_id": "cmp_007",
+  "user_id": "u_002587",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:40.708414Z"
+ },
+ {
+  "event_id": "35c6b083-3541-4695-83d3-e4a0c6ac442d",
+  "event_type": "impression",
+  "campaign_id": "cmp_006",
+  "user_id": "u_004107",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:40.708414Z"
+ },
+ {
+  "event_id": "e39cb50e-8dc6-46e6-bd36-27cc86e4ad23",
   "event_type": "click",
-  "campaign_id": "cmp_008",
-  "user_id": "u_001551",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:01.095039Z"
- },
- {
-  "event_id": "c342153e-0495-4a24-a50b-56cad14def01",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_000500",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:01.095039Z"
- },
- {
-  "event_id": "b45f35af-7a23-4677-b3e6-325bc25667b4",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_004427",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:01.095039Z"
- },
- {
-  "event_id": "106aa89d-f51e-48d1-94e7-9f38e26dd170",
-  "event_type": "impression",
-  "campaign_id": "cmp_005",
-  "user_id": "u_002469",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:01.095039Z"
- },
- {
-  "event_id": "174757f0-8a6f-49e9-97d1-306e0d89843d",
-  "event_type": "impression",
-  "campaign_id": "cmp_008",
-  "user_id": "u_004514",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:01.095039Z"
- },
- {
-  "event_id": "658dd000-4a63-4484-acec-00e4906adecb",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_001077",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:01.095039Z"
- },
- {
-  "event_id": "a67e7603-b0b6-400a-9760-ce94a003a5fe",
-  "event_type": "impression",
-  "campaign_id": "cmp_008",
-  "user_id": "u_001770",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:01.095039Z"
- },
- {
-  "event_id": "e0b80dfd-9af5-4cac-897c-c6db30003d9a",
-  "event_type": "impression",
   "campaign_id": "cmp_001",
-  "user_id": "u_003452",
+  "user_id": "u_004154",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:01.095039Z"
+  "detected_at": "2026-11-10T22:37:40.708414Z"
  },
  {
-  "event_id": "d3577b27-4aad-4b4a-b628-60a130963bbc",
-  "event_type": "impression",
-  "campaign_id": "cmp_002",
-  "user_id": "u_004553",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:17:01.095039Z"
- },
- {
-  "event_id": "6de3fd9c-2dec-4b05-9f8a-ddeb870e9909",
-  "event_type": "impression",
-  "campaign_id": "cmp_001",
-  "user_id": "u_004526",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:41.233759Z"
- },
- {
-  "event_id": "44226f19-127e-44f9-b436-113fa85b49a8",
+  "event_id": "4e5a5b00-761c-4db7-b259-2dbe0b7d4e8d",
   "event_type": "impression",
   "campaign_id": "cmp_007",
-  "user_id": "u_000160",
+  "user_id": "u_002172",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:41.233759Z"
+  "detected_at": "2026-11-10T22:37:40.708414Z"
  },
  {
-  "event_id": "2a6ecee9-712e-49f9-a46e-34ffd4a2cc09",
+  "event_id": "465e16f9-2843-4b93-865d-fd6be4893590",
   "event_type": "impression",
   "campaign_id": "cmp_008",
-  "user_id": "u_002706",
+  "user_id": "u_001133",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:41.233759Z"
+  "detected_at": "2026-11-10T22:37:40.708414Z"
  },
  {
-  "event_id": "7ae97af2-4792-408e-af85-869bc310cd7c",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_001900",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:41.233759Z"
- },
- {
-  "event_id": "c2166eac-9dca-4d4d-baf8-f34620a126fb",
-  "event_type": "impression",
-  "campaign_id": "cmp_002",
-  "user_id": "u_004500",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:41.233759Z"
- },
- {
-  "event_id": "b56bfc4c-2900-4443-b061-4f4e57479e1b",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_001745",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:41.233759Z"
- },
- {
-  "event_id": "1e768baa-e63c-4a6c-8a84-8dd975ea9817",
-  "event_type": "click",
-  "campaign_id": "cmp_002",
-  "user_id": "u_002428",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:41.233759Z"
- },
- {
-  "event_id": "f8c23f6f-7d37-4c8a-8f82-9d3e30ab1106",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_004421",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:41.233759Z"
- },
- {
-  "event_id": "ba60881e-3b18-4317-a522-dfca9ea5bc09",
-  "event_type": "impression",
-  "campaign_id": "cmp_005",
-  "user_id": "u_002037",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:41.233759Z"
- },
- {
-  "event_id": "f2926660-fbc9-48a3-9e6a-0ca12778b81a",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_004330",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:41.233759Z"
- },
- {
-  "event_id": "d8d1fa4b-aa4f-4474-a3dd-e69461a01c7a",
-  "event_type": "impression",
-  "campaign_id": "cmp_002",
-  "user_id": "u_003911",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:41.233759Z"
- },
- {
-  "event_id": "3e6d2df6-48b7-4246-b768-e68e46d0c4b9",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_002797",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:41.233759Z"
- },
- {
-  "event_id": "d9bb628d-23f0-452d-9f96-2cca93746e5c",
-  "event_type": "impression",
-  "campaign_id": "cmp_002",
-  "user_id": "u_000701",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:41.233759Z"
- },
- {
-  "event_id": "3714f8f3-45e9-4e0a-94c6-5ee0e8e0c0aa",
-  "event_type": "impression",
-  "campaign_id": "cmp_001",
-  "user_id": "u_001534",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:41.233759Z"
- },
- {
-  "event_id": "387e72de-a780-4ecd-954e-7307317fbabe",
-  "event_type": "impression",
-  "campaign_id": "cmp_008",
-  "user_id": "u_002360",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:41.233759Z"
- },
- {
-  "event_id": "b18844a9-8548-4f3f-b755-6b238be29dc4",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_000645",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:41.233759Z"
- },
- {
-  "event_id": "dcb865ab-3a2c-4619-b4de-f3365c3a369a",
-  "event_type": "impression",
-  "campaign_id": "cmp_002",
-  "user_id": "u_003836",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:41.233759Z"
- },
- {
-  "event_id": "7cbf7b78-a0c6-41c1-8aa9-a06574044761",
-  "event_type": "impression",
-  "campaign_id": "cmp_002",
-  "user_id": "u_002965",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
- },
- {
-  "event_id": "5f178d4c-aabd-43a5-b9db-bc9d4c347452",
-  "event_type": "impression",
-  "campaign_id": "cmp_001",
-  "user_id": "u_002183",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
- },
- {
-  "event_id": "2ba08972-e0ed-4636-a30c-4be08fa7785a",
-  "event_type": "impression",
-  "campaign_id": "cmp_005",
-  "user_id": "u_002863",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
- },
- {
-  "event_id": "a9beb818-40ba-4699-94f7-f14c25bf975f",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_001984",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
- },
- {
-  "event_id": "6bc950ef-106b-4a2f-9dac-2545481d60fa",
-  "event_type": "impression",
-  "campaign_id": "cmp_005",
-  "user_id": "u_004736",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
- },
- {
-  "event_id": "f4a435c2-f299-4806-9c4d-05946bcb7415",
+  "event_id": "3180e467-a2f7-49d8-88ff-75c0953272b9",
   "event_type": "impression",
   "campaign_id": "cmp_007",
-  "user_id": "u_004045",
+  "user_id": "u_003227",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
+  "detected_at": "2026-11-10T22:37:40.708414Z"
  },
  {
-  "event_id": "db2d55d5-1a21-4843-8749-4ff521ddd50f",
+  "event_id": "b249aec1-d542-4dbc-86cf-a582a1cd703a",
   "event_type": "impression",
   "campaign_id": "cmp_004",
-  "user_id": "u_001355",
+  "user_id": "u_003929",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
+  "detected_at": "2026-11-10T22:37:40.708414Z"
  },
  {
-  "event_id": "0ced5762-7b9d-4992-aba6-5b78c31e7342",
+  "event_id": "8173e6b2-49dc-4fce-94d2-bdaaabbbc523",
   "event_type": "impression",
-  "campaign_id": "cmp_005",
-  "user_id": "u_001207",
+  "campaign_id": "cmp_002",
+  "user_id": "u_002771",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
+  "detected_at": "2026-11-10T22:37:40.708414Z"
  },
  {
-  "event_id": "7c171b06-4489-457f-a0f9-881c7f096784",
+  "event_id": "9c11466d-43e1-455a-95ff-9a0dd652da5b",
+  "event_type": "impression",
+  "campaign_id": "cmp_003",
+  "user_id": "u_001203",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:40.708414Z"
+ },
+ {
+  "event_id": "5c935e85-01de-405e-ba11-c78a6631f2b7",
+  "event_type": "impression",
+  "campaign_id": "cmp_002",
+  "user_id": "u_000844",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:40.708414Z"
+ },
+ {
+  "event_id": "308c3763-fde7-4ed6-9d50-2490ee9cdb3f",
+  "event_type": "impression",
+  "campaign_id": "cmp_002",
+  "user_id": "u_002733",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:40.708414Z"
+ },
+ {
+  "event_id": "a780cc12-24e3-4995-919f-1601423ea89f",
   "event_type": "impression",
   "campaign_id": "cmp_001",
+  "user_id": "u_000900",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:40.708414Z"
+ },
+ {
+  "event_id": "ee0aa6c4-3215-4579-a031-96928567885f",
+  "event_type": "impression",
+  "campaign_id": "cmp_006",
+  "user_id": "u_000749",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:40.708414Z"
+ },
+ {
+  "event_id": "ac8c31bc-65c2-49ea-aca2-f8781e248d8a",
+  "event_type": "impression",
+  "campaign_id": "cmp_001",
+  "user_id": "u_001539",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:40.708414Z"
+ },
+ {
+  "event_id": "71b8b12c-04c4-4fd2-a348-4a44ad3a5e34",
+  "event_type": "impression",
+  "campaign_id": "cmp_003",
+  "user_id": "u_003405",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:40.708414Z"
+ },
+ {
+  "event_id": "8b335217-a19b-4744-8509-1352bea40bcb",
+  "event_type": "impression",
+  "campaign_id": "cmp_003",
+  "user_id": "u_001731",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:40.708414Z"
+ },
+ {
+  "event_id": "21c86bc4-1d80-44bf-8ab3-7cffd3277d6d",
+  "event_type": "impression",
+  "campaign_id": "cmp_001",
+  "user_id": "u_003808",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:40.708414Z"
+ },
+ {
+  "event_id": "0653e76c-ae45-47c4-a966-a57d4228db8d",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_000977",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:40.708414Z"
+ },
+ {
+  "event_id": "f63b1e8d-ee3d-4937-9554-dbd4375d66a5",
+  "event_type": "impression",
+  "campaign_id": "cmp_003",
+  "user_id": "u_003492",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:40.708414Z"
+ },
+ {
+  "event_id": "5b9fed72-8f0d-40a5-8357-23ed567e2872",
+  "event_type": "impression",
+  "campaign_id": "cmp_007",
+  "user_id": "u_000788",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:21.112628Z"
+ },
+ {
+  "event_id": "880105ac-4209-4ff5-a76f-c2be67da877a",
+  "event_type": "impression",
+  "campaign_id": "cmp_005",
+  "user_id": "u_004102",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:21.112628Z"
+ },
+ {
+  "event_id": "a0154cc5-ec22-4e8a-b44d-b9d242983ea3",
+  "event_type": "impression",
+  "campaign_id": "cmp_006",
+  "user_id": "u_000313",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:21.112628Z"
+ },
+ {
+  "event_id": "524a95a0-1f57-4e78-98d5-ba3c4ad654c1",
+  "event_type": "impression",
+  "campaign_id": "cmp_003",
+  "user_id": "u_000529",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:21.112628Z"
+ },
+ {
+  "event_id": "e426cf5e-a7cf-4c3d-9358-287bcd1f4102",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_003291",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:21.112628Z"
+ },
+ {
+  "event_id": "49039246-77bf-43b9-b5c9-d99416997269",
+  "event_type": "impression",
+  "campaign_id": "cmp_006",
+  "user_id": "u_000957",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:21.112628Z"
+ },
+ {
+  "event_id": "f23a2480-f4b3-4c7a-9fed-c061c1970267",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_003273",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:21.112628Z"
+ },
+ {
+  "event_id": "5c7dea78-71fa-470a-814c-faaeb5af0006",
+  "event_type": "impression",
+  "campaign_id": "cmp_008",
+  "user_id": "u_002861",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:21.112628Z"
+ },
+ {
+  "event_id": "85236a94-58ff-4d9f-b74f-7eb9dd26d363",
+  "event_type": "impression",
+  "campaign_id": "cmp_002",
+  "user_id": "u_003784",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:21.112628Z"
+ },
+ {
+  "event_id": "24808805-a2c9-4e11-83c4-ea92a5ff8797",
+  "event_type": "impression",
+  "campaign_id": "cmp_002",
+  "user_id": "u_001947",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:21.112628Z"
+ },
+ {
+  "event_id": "88cda518-8214-4e64-bb4a-8d9acc606063",
+  "event_type": "impression",
+  "campaign_id": "cmp_001",
+  "user_id": "u_001364",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:21.112628Z"
+ },
+ {
+  "event_id": "a1bba73c-e2f3-4ad2-b387-e506f24ad363",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
   "user_id": "u_001951",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
+  "detected_at": "2026-11-10T22:37:21.112628Z"
  },
  {
-  "event_id": "4e36673b-86b7-4705-bb59-f5ff9024938a",
-  "event_type": "impression",
-  "campaign_id": "cmp_002",
-  "user_id": "u_002054",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
- },
- {
-  "event_id": "c31c245f-1c19-4626-8ba0-b54484bb7af9",
-  "event_type": "click",
-  "campaign_id": "cmp_001",
-  "user_id": "u_001846",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
- },
- {
-  "event_id": "84d88500-5fce-4281-b749-9c20e2ef613d",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_004658",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
- },
- {
-  "event_id": "e941729e-4bd0-4d3f-9429-7d0007200881",
-  "event_type": "impression",
-  "campaign_id": "cmp_008",
-  "user_id": "u_003468",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
- },
- {
-  "event_id": "a3dfba60-3d65-403e-ac19-a5f079ca84d1",
-  "event_type": "impression",
-  "campaign_id": "cmp_005",
-  "user_id": "u_004206",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
- },
- {
-  "event_id": "cc457fcd-aa0d-4915-a766-63dfca61c7d0",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_000858",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
- },
- {
-  "event_id": "4be7119c-3292-4dea-b9fb-8e6d9bc5f49f",
+  "event_id": "77ac5e8b-6e4a-4e2c-b830-d93f7cdbd3e0",
   "event_type": "impression",
   "campaign_id": "cmp_003",
-  "user_id": "u_001387",
+  "user_id": "u_000609",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
+  "detected_at": "2026-11-10T22:37:01.337519Z"
  },
  {
-  "event_id": "51b741fa-a10e-4549-8310-3e3892a6b023",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_004061",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
- },
- {
-  "event_id": "3d18ef6f-f7f6-4033-89b7-b2288459117d",
-  "event_type": "impression",
-  "campaign_id": "cmp_005",
-  "user_id": "u_000837",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
- },
- {
-  "event_id": "1a844ce8-9d96-4519-bb80-1be2b1b21ea1",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_001787",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
- },
- {
-  "event_id": "35801763-27ef-437e-b0ac-3842ae3edefa",
-  "event_type": "conversion",
-  "campaign_id": "cmp_003",
-  "user_id": "u_004851",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
- },
- {
-  "event_id": "a12e310b-2c3e-45d4-9ae6-f4fc296dc298",
-  "event_type": "click",
-  "campaign_id": "cmp_003",
-  "user_id": "u_002790",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
- },
- {
-  "event_id": "06211ef8-c342-4c5e-9575-6189b646b211",
-  "event_type": "impression",
-  "campaign_id": "cmp_005",
-  "user_id": "u_001521",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
- },
- {
-  "event_id": "490585ca-8069-4541-805f-04f5eebf322c",
-  "event_type": "impression",
-  "campaign_id": "cmp_006",
-  "user_id": "u_003070",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:20.825737Z"
- },
- {
-  "event_id": "4fc82c54-271f-436c-b2a0-3468808deec7",
-  "event_type": "impression",
-  "campaign_id": "cmp_001",
-  "user_id": "u_004919",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:01.066554Z"
- },
- {
-  "event_id": "12a51414-97d0-49f7-be1e-187384b5d27f",
+  "event_id": "136e6a3c-b45d-4b53-a23c-644386e331e1",
   "event_type": "impression",
   "campaign_id": "cmp_007",
-  "user_id": "u_003442",
+  "user_id": "u_003278",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:01.066554Z"
+  "detected_at": "2026-11-10T22:37:01.337519Z"
  },
  {
-  "event_id": "bc5b9d4d-2626-4b20-b0d3-b3334dd47507",
-  "event_type": "impression",
-  "campaign_id": "cmp_005",
-  "user_id": "u_000194",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:01.066554Z"
- },
- {
-  "event_id": "b6337940-2f22-4f44-81b4-b0377b4e7437",
-  "event_type": "impression",
-  "campaign_id": "cmp_008",
-  "user_id": "u_002000",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:01.066554Z"
- },
- {
-  "event_id": "1868dbc2-3904-412d-b746-90d6613ea516",
-  "event_type": "impression",
-  "campaign_id": "cmp_004",
-  "user_id": "u_000038",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:01.066554Z"
- },
- {
-  "event_id": "dfbd05e7-9774-46fe-8619-5a837750fb81",
+  "event_id": "4cc2f5ff-9a80-4b76-9806-39d981f0e5dc",
   "event_type": "impression",
   "campaign_id": "cmp_006",
-  "user_id": "u_001347",
+  "user_id": "u_001949",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:01.066554Z"
+  "detected_at": "2026-11-10T22:37:01.337519Z"
  },
  {
-  "event_id": "67023e62-7d22-409a-9408-a689d6f4a72d",
+  "event_id": "18497e3a-0d68-46cf-8a35-24d1f3dcdbfc",
   "event_type": "impression",
-  "campaign_id": "cmp_003",
-  "user_id": "u_003916",
+  "campaign_id": "cmp_007",
+  "user_id": "u_003096",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:01.066554Z"
+  "detected_at": "2026-11-10T22:37:01.337519Z"
  },
  {
-  "event_id": "ebc0f7f4-be90-4108-9d21-0ccb02a87765",
+  "event_id": "661fa8da-f429-49f6-8949-b22b4cfaeb06",
   "event_type": "impression",
-  "campaign_id": "cmp_005",
-  "user_id": "u_002945",
+  "campaign_id": "cmp_006",
+  "user_id": "u_000043",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:01.066554Z"
+  "detected_at": "2026-11-10T22:37:01.337519Z"
  },
  {
-  "event_id": "47750136-5798-4635-8635-29c1521ca1ff",
+  "event_id": "e7e007f5-32c6-4d7f-9d2b-08835cdf68cc",
   "event_type": "impression",
-  "campaign_id": "cmp_005",
-  "user_id": "u_000050",
+  "campaign_id": "cmp_008",
+  "user_id": "u_004193",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:01.066554Z"
+  "detected_at": "2026-11-10T22:37:01.337519Z"
  },
  {
-  "event_id": "a66da3c0-8795-47aa-a38e-3b44c66dff0f",
-  "event_type": "impression",
-  "campaign_id": "cmp_005",
-  "user_id": "u_003624",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:01.066554Z"
- },
- {
-  "event_id": "dc372afb-1c7d-4fe1-b2c4-2137acb1971e",
-  "event_type": "impression",
-  "campaign_id": "cmp_001",
-  "user_id": "u_003866",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:01.066554Z"
- },
- {
-  "event_id": "8549fe6f-a0f6-4a9a-91f4-07ff24b72eaa",
-  "event_type": "impression",
-  "campaign_id": "cmp_005",
-  "user_id": "u_000689",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:01.066554Z"
- },
- {
-  "event_id": "7ce5c24a-c524-4ae3-85eb-e321bdabedf6",
-  "event_type": "impression",
-  "campaign_id": "cmp_002",
-  "user_id": "u_003703",
-  "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:01.066554Z"
- },
- {
-  "event_id": "4d04e157-0d55-4261-8bd5-8dca3e439aca",
+  "event_id": "8b9ee809-f36c-48a2-b6ef-679941c616a2",
   "event_type": "impression",
   "campaign_id": "cmp_004",
-  "user_id": "u_004373",
+  "user_id": "u_000141",
   "occurrences": 2,
-  "detected_at": "2026-11-10T22:16:01.066554Z"
+  "detected_at": "2026-11-10T22:37:01.337519Z"
+ },
+ {
+  "event_id": "8b1c459f-2fcc-4253-bbc4-b033e9ef038d",
+  "event_type": "impression",
+  "campaign_id": "cmp_008",
+  "user_id": "u_000632",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:01.337519Z"
+ },
+ {
+  "event_id": "3f91e150-6581-4248-aef9-7c4b6ca14fce",
+  "event_type": "impression",
+  "campaign_id": "cmp_003",
+  "user_id": "u_001315",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:01.337519Z"
+ },
+ {
+  "event_id": "8304ba60-34bd-4bc3-878d-cd3cca12bfdd",
+  "event_type": "impression",
+  "campaign_id": "cmp_005",
+  "user_id": "u_004250",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:01.337519Z"
+ },
+ {
+  "event_id": "ede0c673-b83a-463c-aaf2-cadb44898803",
+  "event_type": "impression",
+  "campaign_id": "cmp_001",
+  "user_id": "u_002025",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:01.337519Z"
+ },
+ {
+  "event_id": "ee7a0a84-7657-478a-8fbb-a7ee86facb9d",
+  "event_type": "impression",
+  "campaign_id": "cmp_007",
+  "user_id": "u_000807",
+  "occurrences": 3,
+  "detected_at": "2026-11-10T22:37:01.337519Z"
+ },
+ {
+  "event_id": "4652685b-49bc-4d7e-84f6-88720a89a6bd",
+  "event_type": "impression",
+  "campaign_id": "cmp_006",
+  "user_id": "u_000831",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:01.337519Z"
+ },
+ {
+  "event_id": "7883984a-8026-49a3-b28e-08696eeeed89",
+  "event_type": "impression",
+  "campaign_id": "cmp_008",
+  "user_id": "u_004205",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:37:01.337519Z"
+ },
+ {
+  "event_id": "df2df6a6-83ac-4279-85d5-95047128f3e1",
+  "event_type": "impression",
+  "campaign_id": "cmp_002",
+  "user_id": "u_003738",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:40.842469Z"
+ },
+ {
+  "event_id": "8711c98f-7bf6-427d-bc13-2736140cc68e",
+  "event_type": "impression",
+  "campaign_id": "cmp_001",
+  "user_id": "u_001055",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:40.842469Z"
+ },
+ {
+  "event_id": "a7479865-8b33-430c-8ca8-812c699e7b4d",
+  "event_type": "impression",
+  "campaign_id": "cmp_007",
+  "user_id": "u_000878",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:40.842469Z"
+ },
+ {
+  "event_id": "6e0ae389-06f7-42d8-9d26-6db694500a4b",
+  "event_type": "impression",
+  "campaign_id": "cmp_002",
+  "user_id": "u_004276",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:40.842469Z"
+ },
+ {
+  "event_id": "1a750745-6d80-4d4c-a019-f86877f9bf21",
+  "event_type": "impression",
+  "campaign_id": "cmp_008",
+  "user_id": "u_000452",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:40.842469Z"
+ },
+ {
+  "event_id": "f0101a17-4871-4650-ba92-2a564279cb01",
+  "event_type": "impression",
+  "campaign_id": "cmp_002",
+  "user_id": "u_003098",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:40.842469Z"
+ },
+ {
+  "event_id": "b2091f56-9816-435c-856f-245a6b55571f",
+  "event_type": "impression",
+  "campaign_id": "cmp_001",
+  "user_id": "u_003856",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:40.842469Z"
+ },
+ {
+  "event_id": "a00f1b3d-14a0-4bf6-9b9b-a7874bbe25f6",
+  "event_type": "impression",
+  "campaign_id": "cmp_007",
+  "user_id": "u_002014",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:40.842469Z"
+ },
+ {
+  "event_id": "03195539-18b4-4bde-a464-4a26bfb8a2d0",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_000533",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:40.842469Z"
+ },
+ {
+  "event_id": "3eeb717b-59fd-40b8-aae2-5124d36dbbde",
+  "event_type": "impression",
+  "campaign_id": "cmp_006",
+  "user_id": "u_000990",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:40.842469Z"
+ },
+ {
+  "event_id": "71b5fff6-0b3a-4bb0-ad28-8dac90cd3634",
+  "event_type": "impression",
+  "campaign_id": "cmp_005",
+  "user_id": "u_000244",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:40.842469Z"
+ },
+ {
+  "event_id": "471e79ac-dbbf-4726-aeed-19324351fb5e",
+  "event_type": "impression",
+  "campaign_id": "cmp_008",
+  "user_id": "u_003685",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:21.097399Z"
+ },
+ {
+  "event_id": "ba474f89-0e95-46ac-841c-044f9d874204",
+  "event_type": "impression",
+  "campaign_id": "cmp_003",
+  "user_id": "u_003708",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:21.097399Z"
+ },
+ {
+  "event_id": "2accd9cc-bb84-413d-85a5-63ae1542efed",
+  "event_type": "impression",
+  "campaign_id": "cmp_008",
+  "user_id": "u_001162",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:21.097399Z"
+ },
+ {
+  "event_id": "72b98fc4-8f6b-4b97-b603-485e77a4e19c",
+  "event_type": "impression",
+  "campaign_id": "cmp_006",
+  "user_id": "u_002265",
+  "occurrences": 3,
+  "detected_at": "2026-11-10T22:36:21.097399Z"
+ },
+ {
+  "event_id": "2994415e-149f-472a-9b3e-ed6468093867",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_001103",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:21.097399Z"
+ },
+ {
+  "event_id": "ead6d50d-27ba-418b-b8df-1a9d5e5305b0",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_002912",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:21.097399Z"
+ },
+ {
+  "event_id": "92b5bd64-3df7-479f-81ae-cf0923260ad2",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_002749",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:21.097399Z"
+ },
+ {
+  "event_id": "eb85d98b-0b46-4491-9c3d-fdd530bd36f4",
+  "event_type": "impression",
+  "campaign_id": "cmp_008",
+  "user_id": "u_001703",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:21.097399Z"
+ },
+ {
+  "event_id": "c131cb7a-34aa-4431-9cd9-12332b6a34d9",
+  "event_type": "impression",
+  "campaign_id": "cmp_006",
+  "user_id": "u_000653",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:21.097399Z"
+ },
+ {
+  "event_id": "83fd284e-630c-4dbc-b660-3c43e15342da",
+  "event_type": "impression",
+  "campaign_id": "cmp_001",
+  "user_id": "u_002309",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:21.097399Z"
+ },
+ {
+  "event_id": "c9f52fc6-4a4e-41f1-9c20-53da5acd1184",
+  "event_type": "impression",
+  "campaign_id": "cmp_005",
+  "user_id": "u_001235",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:21.097399Z"
+ },
+ {
+  "event_id": "a13c95dd-851d-4db1-aa55-121681b2e06f",
+  "event_type": "impression",
+  "campaign_id": "cmp_007",
+  "user_id": "u_002188",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:21.097399Z"
+ },
+ {
+  "event_id": "0dd25e2d-3d8a-4f6e-a3c1-d4102fdc693b",
+  "event_type": "impression",
+  "campaign_id": "cmp_002",
+  "user_id": "u_002692",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:21.097399Z"
+ },
+ {
+  "event_id": "d357d4b9-c57f-484a-9ce7-ef220b1574f5",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_000914",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:21.097399Z"
+ },
+ {
+  "event_id": "d8046913-58ae-4a32-a275-3b46676b6a3d",
+  "event_type": "impression",
+  "campaign_id": "cmp_002",
+  "user_id": "u_000325",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:21.097399Z"
+ },
+ {
+  "event_id": "7aefe75e-3a51-4b86-b88b-cde73c0d129c",
+  "event_type": "impression",
+  "campaign_id": "cmp_006",
+  "user_id": "u_002520",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:21.097399Z"
+ },
+ {
+  "event_id": "aac30e21-4fa7-428a-a407-2a10b935810f",
+  "event_type": "impression",
+  "campaign_id": "cmp_001",
+  "user_id": "u_001383",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:21.097399Z"
+ },
+ {
+  "event_id": "f7fc45ac-948b-44c9-b16c-1a2380e10a06",
+  "event_type": "impression",
+  "campaign_id": "cmp_008",
+  "user_id": "u_001610",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:21.097399Z"
+ },
+ {
+  "event_id": "84309cdf-9b03-4f47-b4c1-37b8b336daad",
+  "event_type": "impression",
+  "campaign_id": "cmp_001",
+  "user_id": "u_003688",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:01.098988Z"
+ },
+ {
+  "event_id": "91284fb3-d804-4dad-94a9-82e3877c43d7",
+  "event_type": "impression",
+  "campaign_id": "cmp_001",
+  "user_id": "u_000041",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:01.098988Z"
+ },
+ {
+  "event_id": "8fd8b9ea-9772-4ce4-bb86-db0dbd2cb7f0",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_003482",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:01.098988Z"
+ },
+ {
+  "event_id": "39821825-8ce2-40cc-ac2f-61b75eded5ce",
+  "event_type": "impression",
+  "campaign_id": "cmp_007",
+  "user_id": "u_004315",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:01.098988Z"
+ },
+ {
+  "event_id": "ebe36172-714e-4431-9b08-508ba1bffd10",
+  "event_type": "impression",
+  "campaign_id": "cmp_002",
+  "user_id": "u_002698",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:01.098988Z"
+ },
+ {
+  "event_id": "12f951ed-141c-4c5b-a82f-c8b9664d72c6",
+  "event_type": "impression",
+  "campaign_id": "cmp_006",
+  "user_id": "u_004185",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:01.098988Z"
+ },
+ {
+  "event_id": "2b3d591f-9958-4f98-9443-a9b59fe9c2ec",
+  "event_type": "impression",
+  "campaign_id": "cmp_006",
+  "user_id": "u_004885",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:01.098988Z"
+ },
+ {
+  "event_id": "730ba991-9095-4cdd-b3fd-b5296f5cea80",
+  "event_type": "impression",
+  "campaign_id": "cmp_002",
+  "user_id": "u_002255",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:01.098988Z"
+ },
+ {
+  "event_id": "fd420a36-9799-4c66-b1a1-2b98c683484d",
+  "event_type": "impression",
+  "campaign_id": "cmp_007",
+  "user_id": "u_003147",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:01.098988Z"
+ },
+ {
+  "event_id": "f4c39a28-a643-45ac-b583-d2b206f90e0c",
+  "event_type": "impression",
+  "campaign_id": "cmp_003",
+  "user_id": "u_004198",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:01.098988Z"
+ },
+ {
+  "event_id": "fb0d42a0-f47d-4d33-a315-67982c67b3dd",
+  "event_type": "impression",
+  "campaign_id": "cmp_003",
+  "user_id": "u_003813",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:01.098988Z"
+ },
+ {
+  "event_id": "846949a0-d1af-41ac-8f02-61ffa947f219",
+  "event_type": "impression",
+  "campaign_id": "cmp_006",
+  "user_id": "u_003896",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:01.098988Z"
+ },
+ {
+  "event_id": "5a5e288e-3f09-408f-bbcb-13844a563478",
+  "event_type": "impression",
+  "campaign_id": "cmp_002",
+  "user_id": "u_004608",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:01.098988Z"
+ },
+ {
+  "event_id": "eae7a0db-05a1-4a03-9e8a-896821ac0a0b",
+  "event_type": "impression",
+  "campaign_id": "cmp_002",
+  "user_id": "u_000716",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:01.098988Z"
+ },
+ {
+  "event_id": "cf401d02-466d-4985-b384-5e9de5274f07",
+  "event_type": "impression",
+  "campaign_id": "cmp_006",
+  "user_id": "u_003610",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:01.098988Z"
+ },
+ {
+  "event_id": "47102f9a-fe36-4306-b5ed-5199b8d796df",
+  "event_type": "impression",
+  "campaign_id": "cmp_008",
+  "user_id": "u_004896",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:01.098988Z"
+ },
+ {
+  "event_id": "57658ee0-f9bf-4013-b8df-e464e9d2028f",
+  "event_type": "impression",
+  "campaign_id": "cmp_007",
+  "user_id": "u_004375",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:01.098988Z"
+ },
+ {
+  "event_id": "ed03b58d-5c52-4463-b0fe-76761394b8c4",
+  "event_type": "impression",
+  "campaign_id": "cmp_002",
+  "user_id": "u_002487",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:01.098988Z"
+ },
+ {
+  "event_id": "752effc8-cc54-411a-aa72-1b875b6d82bc",
+  "event_type": "impression",
+  "campaign_id": "cmp_007",
+  "user_id": "u_000279",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:01.098988Z"
+ },
+ {
+  "event_id": "99f978b6-5ed7-405a-8cc5-d6395677c082",
+  "event_type": "impression",
+  "campaign_id": "cmp_006",
+  "user_id": "u_000863",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:36:01.098988Z"
+ },
+ {
+  "event_id": "62ea876c-1904-49b8-bbff-abd7cc7980a6",
+  "event_type": "impression",
+  "campaign_id": "cmp_005",
+  "user_id": "u_003243",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:35:40.784750Z"
+ },
+ {
+  "event_id": "d3a3c3a3-8e39-4b14-b1f5-a9befa1cf0b3",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_001754",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:35:40.784750Z"
+ },
+ {
+  "event_id": "69377623-f284-45c7-98da-c27fedbf1ee2",
+  "event_type": "impression",
+  "campaign_id": "cmp_003",
+  "user_id": "u_000788",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:35:40.784750Z"
+ },
+ {
+  "event_id": "7e1b6331-d7d5-4434-83f9-35ba5e5b8d19",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_004705",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:35:40.784750Z"
+ },
+ {
+  "event_id": "0c4791e4-434d-424a-9c09-61d049878b0e",
+  "event_type": "impression",
+  "campaign_id": "cmp_001",
+  "user_id": "u_002759",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:35:40.784750Z"
+ },
+ {
+  "event_id": "2b0bd15d-e821-49d1-9d0a-b2cadab6819c",
+  "event_type": "impression",
+  "campaign_id": "cmp_001",
+  "user_id": "u_004866",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:35:40.784750Z"
+ },
+ {
+  "event_id": "5a3d190b-c98c-4aff-9b6f-f9860e3537ff",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_000612",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:35:40.784750Z"
+ },
+ {
+  "event_id": "e9663b70-3491-4b59-ad35-0e32364ecfc9",
+  "event_type": "impression",
+  "campaign_id": "cmp_003",
+  "user_id": "u_003594",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:35:40.784750Z"
+ },
+ {
+  "event_id": "34cad4df-6ccb-4db4-941b-7f011d7b51dc",
+  "event_type": "impression",
+  "campaign_id": "cmp_008",
+  "user_id": "u_001803",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:35:40.784750Z"
+ },
+ {
+  "event_id": "cac5c937-a0f6-4a87-bf3f-ef677852e545",
+  "event_type": "impression",
+  "campaign_id": "cmp_007",
+  "user_id": "u_002767",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:35:40.784750Z"
+ },
+ {
+  "event_id": "aeba9c9d-e914-46aa-8fdc-8e7572813f6d",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_002492",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:35:40.784750Z"
+ },
+ {
+  "event_id": "855a3c57-9616-4794-81d7-b7eee1f040af",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_004339",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:35:40.784750Z"
+ },
+ {
+  "event_id": "4cdb0824-8e7d-414c-8f97-2fc56e78d4d2",
+  "event_type": "impression",
+  "campaign_id": "cmp_003",
+  "user_id": "u_000741",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:35:40.784750Z"
+ },
+ {
+  "event_id": "68a124ae-0e02-4d51-bdfa-c6d4f7ac5e71",
+  "event_type": "impression",
+  "campaign_id": "cmp_008",
+  "user_id": "u_004778",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:35:21.114820Z"
+ },
+ {
+  "event_id": "9bd3e822-aafb-462c-84e5-5bac34be02ae",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_003833",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:35:21.114820Z"
+ },
+ {
+  "event_id": "99814961-c743-4eb6-b4af-8948a4716161",
+  "event_type": "impression",
+  "campaign_id": "cmp_007",
+  "user_id": "u_000551",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:35:21.114820Z"
+ },
+ {
+  "event_id": "0d32838c-dbc6-4564-a6c3-8f4de2abae0e",
+  "event_type": "impression",
+  "campaign_id": "cmp_004",
+  "user_id": "u_004651",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:35:21.114820Z"
+ },
+ {
+  "event_id": "b07d8f21-2abd-4a59-9245-21545ba016af",
+  "event_type": "impression",
+  "campaign_id": "cmp_003",
+  "user_id": "u_003096",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:35:21.114820Z"
+ },
+ {
+  "event_id": "6f7d9030-e815-4757-b5a7-43b856ded278",
+  "event_type": "impression",
+  "campaign_id": "cmp_005",
+  "user_id": "u_004209",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:35:21.114820Z"
+ },
+ {
+  "event_id": "00f74e62-94ea-4793-bb60-1f2c136921d8",
+  "event_type": "impression",
+  "campaign_id": "cmp_002",
+  "user_id": "u_004595",
+  "occurrences": 2,
+  "detected_at": "2026-11-10T22:35:21.114820Z"
  }
 ]

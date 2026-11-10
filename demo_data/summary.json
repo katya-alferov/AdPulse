@@ -1,13 +1,13 @@
 {
- "impressions": 42576,
- "clicks": 1596,
- "conversions": 114,
- "spend_usd": 913.8956,
- "revenue_usd": 12442.59,
- "ctr_pct": 3.75,
- "conversion_rate_pct": 7.14,
- "suspicious_users": 18,
- "duplicate_events": 851,
- "invalid_events": 447,
- "last_update": "2026-11-10T22:19:41.190976Z"
+ "impressions": 29985,
+ "clicks": 1089,
+ "conversions": 64,
+ "spend_usd": 623.2997,
+ "revenue_usd": 6566.36,
+ "ctr_pct": 3.63,
+ "conversion_rate_pct": 5.88,
+ "suspicious_users": 15,
+ "duplicate_events": 627,
+ "invalid_events": 304,
+ "last_update": "2026-11-10T22:39:24.066270Z"
 }
