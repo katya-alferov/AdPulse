@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # 📚 מדריך הלמידה של AdPulse
 
 > המדריך הזה כתוב כאילו אני מסבירה לילדה בת 10, חכמה מאוד, שמעולם לא שמעה על Kafka או Spark.
@@ -70,10 +72,14 @@
 זה בדיוק מה ש-AdPulse עושה – עם נתונים **מומצאים** (סינתטיים).
 
 ### התמונה הגדולה
+<div dir="ltr">
+
 ```
 מחולל אירועים → Kafka → Spark → (S3 Parquet + PostgreSQL) → FastAPI → Streamlit
    "המפעל"     "הדואר"  "המוח"       "המחסן"   "הספרייה"     "החלון"   "המסך"
 ```
+
+</div>
 
 ---
 
@@ -379,6 +385,8 @@
 <a id="12"></a>
 ## 12. מבנה הפרויקט – ולמה ככה
 
+<div dir="ltr">
+
 ```
 src/adpulse/      ← קוד Python של השירותים (generator, auditor, API, dashboard)
 spark_jobs/       ← קוד PySpark (רץ בקונטיינר אחר, עם Java)
@@ -386,6 +394,8 @@ sql/init/         ← יצירת טבלאות
 tests/            ← unit / spark / integration
 docker/           ← Dockerfiles
 ```
+
+</div>
 **למה לא קובץ אחד?** כל מודול עם אחריות אחת (Single Responsibility). אפשר לבדוק כל חלק לבד, להחליף חלק בלי לשבור אחרים, וכמה אנשים יכולים לעבוד במקביל.
 
 **למה `src/` layout?** מונע מצב שבו בדיקות "עובדות" רק כי הן רצות מהתיקייה הנכונה. הקוד נטען כ-package (`adpulse.*`).
@@ -437,12 +447,16 @@ docker/           ← Dockerfiles
 <a id="15"></a>
 ## 15. `src/adpulse/metrics.py` – נוסחאות עסקיות
 
+<div dir="ltr">
+
 ```python
 def safe_ratio_percent(numerator, denominator, digits=2):
     if denominator is None or denominator <= 0 or numerator is None:
         return 0.0
     return round(numerator / denominator * 100.0, digits)
 ```
+
+</div>
 **שורה חשובה:** הבדיקה `denominator <= 0` – קמפיין חדש עם 0 חשיפות היה גורם ל-`ZeroDivisionError` ומפיל את ה-API. במקום זה: 0%.
 - `ctr`, `conversion_rate`, `cpc` (עלות לקליק = הוצאה ÷ קליקים), `roas` (Return On Ad Spend = הכנסה ÷ הוצאה; 3.0 = כל דולר החזיר 3).
 - ב-SQL עשינו אותו דבר עם `NULLIF(SUM(impressions), 0)` – חלוקה ב-NULL מחזירה NULL ולא שגיאה.
@@ -529,21 +543,29 @@ def safe_ratio_percent(numerator, denominator, digits=2):
 <a id="21"></a>
 ## 21. `kafka_io/consumer.py` – ה-Auditor (Consumer Group)
 
+<div dir="ltr">
+
 ```python
 Consumer({"bootstrap.servers": ..., "group.id": "adpulse-auditor",
           "auto.offset.reset": "earliest", "enable.auto.commit": False})
 ```
+
+</div>
 - `group.id` – שם הקבוצה.
 - `auto.offset.reset: earliest` – קבוצה **חדשה** (בלי offsets שמורים) מתחילה מההתחלה.
 - `enable.auto.commit: False` – אנחנו מחליטים מתי לעשות commit.
 
 הלולאה:
+<div dir="ltr">
+
 ```python
 msg = self.consumer.poll(1.0)        # חכה עד שנייה להודעה
 ...
 self.handle(msg.value(), msg.partition(), msg.offset())
 self.consumer.commit(message=msg, asynchronous=True)   # רק אחרי עיבוד → at-least-once
 ```
+
+</div>
 - `on_assign` – callback שמדפיס אילו partitions קיבלנו (רואים rebalance בלוג).
 - `handle()` – מאמת; פסול → `build_dlq_record` → שליחה ל-DLQ.
 - `finally: consumer.close()` – עוזב את הקבוצה מסודר, כדי ש-Kafka יעשה rebalance מיד ולא יחכה ל-timeout.
@@ -687,6 +709,8 @@ self.consumer.commit(message=msg, asynchronous=True)   # רק אחרי עיבו�
 ## 27. Docker – הקבצים
 
 ### `docker/app.Dockerfile`
+<div dir="ltr">
+
 ```dockerfile
 FROM python:3.11-slim                 # בסיס: לינוקס קטן + Python 3.11
 ENV PYTHONUNBUFFERED=1                # לוגים מיד ל-stdout (אחרת Docker לא רואה אותם בזמן אמת)
@@ -696,6 +720,8 @@ COPY src/ src/                        # …ואז הקוד. למה בסדר הז
                                       # שינוי בקוד לא מחייב התקנה מחדש של הספריות
 RUN useradd ... && USER adpulse       # לא רצים כ-root (אבטחה)
 ```
+
+</div>
 שלב ה-`docker/certs` – רלוונטי רק בסביבה עם proxy שבודק TLS (כמו ה-sandbox שבו בניתי). אצלך התיקייה ריקה וזה לא עושה כלום.
 
 ### `docker/spark.Dockerfile`
@@ -775,3 +801,5 @@ RUN useradd ... && USER adpulse       # לא רצים כ-root (אבטחה)
 7. הדשבורד מציג?
 
 השלב הראשון שבו התשובה "לא" – שם הבאג.
+
+</div>

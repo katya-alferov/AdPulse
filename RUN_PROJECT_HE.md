@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # 🚀 מדריך הרצה מעשי – AdPulse
 
 המדריך הזה מסביר צעד-אחר-צעד איך להריץ את כל המערכת על המחשב שלך, איך לבדוק שכל חלק עובד, ומה לעשות כשמשהו נתקע.
@@ -43,24 +45,36 @@
 3. Git כבר מותקן ברוב המקים (`git --version`). אם לא: `xcode-select --install`.
 
 ### Linux (Ubuntu)
+<div dir="ltr">
+
 ```bash
 sudo apt-get update && sudo apt-get install -y git ca-certificates curl
 curl -fsSL https://get.docker.com | sudo sh      # Docker Engine + Compose plugin (חינמי)
 sudo usermod -aG docker $USER                    # כדי להריץ docker בלי sudo; התנתקי והתחברי שוב
 ```
 
+</div>
+
 ### בדיקה שהכול מותקן
+<div dir="ltr">
+
 ```bash
 docker --version
 docker compose version
 git --version
 ```
+
+</div>
 פלט צפוי (בערך):
+<div dir="ltr">
+
 ```
 Docker version 29.x.x
 Docker Compose version v2.x / v5.x
 git version 2.x
 ```
+
+</div>
 
 ---
 
@@ -70,14 +84,20 @@ git version 2.x
 - **Linux:** `sudo systemctl start docker`
 
 בדיקה:
+<div dir="ltr">
+
 ```bash
 docker run --rm hello-world
 ```
+
+</div>
 צפוי: `Hello from Docker!` ✅
 
 ---
 
 ## 3. הורדת הפרויקט והגדרת סודות
+
+<div dir="ltr">
 
 ```bash
 git clone https://github.com/katya-alferov/AdPulse.git
@@ -85,28 +105,44 @@ cd AdPulse
 cp .env.example .env
 ```
 
+</div>
+
 פתחי את `.env` בעורך ושני את שתי הסיסמאות:
+<div dir="ltr">
+
 ```
 POSTGRES_PASSWORD=<סיסמה משלך>
 S3_SECRET_KEY=<סיסמה משלך>
 ```
+
+</div>
 > 🔒 הקובץ `.env` **לא** עולה ל-Git (הוא ב-`.gitignore`). רק `.env.example`, שיש בו ערכים לדוגמה, נשמר במאגר.
 
 ---
 
 ## 4. הפעלת כל השירותים
 
+<div dir="ltr">
+
 ```bash
 docker compose up -d --build
 ```
+
+</div>
 - `up` = הפעילי את השירותים, `-d` = ברקע, `--build` = בני את האימג'ים שלנו.
 - בפעם הראשונה זה לוקח 5–10 דקות (הורדת Kafka, Spark, PostgreSQL וכו').
 
 בדיקת מצב:
+<div dir="ltr">
+
 ```bash
 docker compose ps -a
 ```
+
+</div>
 פלט צפוי (אחרי כדקה):
+<div dir="ltr">
+
 ```
 adpulse-api              Up (healthy)
 adpulse-auditor          Up
@@ -120,19 +156,29 @@ adpulse-spark-streaming  Up
 adpulse-storage-init     Exited (0)      ← תקין! הוא יוצר bucket ומסיים
 ```
 
+</div>
+
 ---
 
 ## 5. יצירת אירועים (Generator)
 
 ה-generator מתחיל לבד ושולח כ-40 חשיפות בשנייה (ועוד קליקים, המרות ואירועים "מלוכלכים").
 לראות אותו עובד:
+<div dir="ltr">
+
 ```bash
 docker compose logs -f generator
 ```
+
+</div>
 פלט צפוי כל 10 שניות:
+<div dir="ltr">
+
 ```
 adpulse.generator | sent=2624 delivered=2619 failed=0 | imp=1976 clk=48 conv=3 dup=42 invalid=105 late=69 bot_clicks=450
 ```
+
+</div>
 (Ctrl+C יוצא מהלוגים – השירות ממשיך לרוץ.)
 
 לשנות את הקצב: ערכי `EVENTS_PER_SECOND` ב-`.env` ואז `docker compose up -d generator`.
@@ -142,71 +188,113 @@ adpulse.generator | sent=2624 delivered=2619 failed=0 | imp=1976 clk=48 conv=3 d
 ## 6. בדיקה שהאירועים נכנסים ל-Kafka
 
 **כמה הודעות יש בכל partition:**
+<div dir="ltr">
+
 ```bash
 docker exec adpulse-kafka /opt/kafka/bin/kafka-get-offsets.sh --bootstrap-server localhost:9092 --topic ad-events
 ```
+
+</div>
 צפוי (המספרים גדלים כל הזמן):
+<div dir="ltr">
+
 ```
 ad-events:0:1015
 ad-events:1:1098
 ad-events:2:977
 ```
 
+</div>
+
 **לראות 3 הודעות אמיתיות:**
+<div dir="ltr">
+
 ```bash
 docker exec adpulse-kafka /opt/kafka/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 \
   --topic ad-events --from-beginning --max-messages 3 --property print.key=true --property print.partition=true
 ```
 
+</div>
+
 **מצב ה-consumer group של ה-auditor (כולל lag):**
+<div dir="ltr">
+
 ```bash
 docker exec adpulse-kafka /opt/kafka/bin/kafka-consumer-groups.sh --bootstrap-server localhost:9092 \
   --describe --group adpulse-auditor
 ```
+
+</div>
 `LAG` קטן = הצרכן עומד בקצב. ✅
 
 **אירועים פסולים שהגיעו ל-Dead Letter Queue:**
+<div dir="ltr">
+
 ```bash
 docker exec adpulse-kafka /opt/kafka/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 \
   --topic ad-events-dlq --from-beginning --max-messages 2
 ```
+
+</div>
 צפוי:
+<div dir="ltr">
+
 ```
 {"error": "invalid_event_type", "source_partition": 2, "source_offset": 3, "raw_value": "{\"event_id\":...\"event_type\":\"hover\"..."}
 ```
+
+</div>
 
 ---
 
 ## 7. בדיקה ש-Spark מעבד
 
+<div dir="ltr">
+
 ```bash
 docker compose logs -f spark-streaming | grep adpulse
 ```
+
+</div>
 צפוי כל ~20 שניות (כל micro-batch):
+<div dir="ltr">
+
 ```
 [metrics] batch 4: upserted 65 rows
 [duplicates] batch 4: upserted 15 rows
 [invalid] batch 4: 7 invalid events
 [fraud] batch 5: upserted 3 rows
 ```
+
+</div>
 **Spark UI** (גרפים של כל query): http://localhost:4040 → לשונית **Structured Streaming**.
 
 ---
 
 ## 8. בדיקת קבצי Parquet באחסון S3 המקומי
 
+<div dir="ltr">
+
 ```bash
 docker compose run --rm --no-deps storage-init python -m adpulse.storage.object_store --list --prefix events/ | tail -5
 ```
+
+</div>
 צפוי:
+<div dir="ltr">
+
 ```
   14523  events/event_date=2026-11-10/event_type=click/part-00000-....snappy.parquet
   ...
 {'parquet_files': 81, 'bytes': 1360896}
 ```
+
+</div>
 שימי לב למבנה `event_date=.../event_type=...` – זה **partitioning**: Spark יכול לקרוא רק את התיקייה של יום מסוים או סוג מסוים.
 
 לקרוא Parquet עם Python (מהמחשב, אחרי `pip install -r requirements/dev.txt`):
+<div dir="ltr">
+
 ```python
 import pyarrow.dataset as ds, pyarrow.fs as fs
 s3 = fs.S3FileSystem(endpoint_override="http://localhost:8333", access_key="adpulse_local_key",
@@ -215,14 +303,22 @@ table = ds.dataset("adpulse-lake/events", filesystem=s3, format="parquet", parti
 print(table.num_rows); print(table.slice(0, 5).to_pandas())
 ```
 
+</div>
+
 ---
 
 ## 9. שאילתות SQL ב-PostgreSQL
 
+<div dir="ltr">
+
 ```bash
 docker exec -it adpulse-postgres psql -U adpulse -d adpulse
 ```
+
+</div>
 ואז, למשל:
+<div dir="ltr">
+
 ```sql
 -- ביצועי קמפיינים
 SELECT campaign_id, impressions, clicks, ctr_pct, cvr_pct FROM v_campaign_performance ORDER BY ctr_pct DESC;
@@ -238,11 +334,17 @@ SELECT window_start, user_id, campaign_id, click_count FROM suspicious_activity 
 -- למה אירועים נפסלו
 SELECT validation_error, SUM(event_count) FROM invalid_events_minute GROUP BY 1 ORDER BY 2 DESC;
 ```
+
+</div>
 פלט אמיתי לדוגמה:
+<div dir="ltr">
+
 ```
  campaign_id | impressions | clicks | ctr_pct | cvr_pct
  cmp_003     |        1442 |    160 |   11.10 |    3.75
 ```
+
+</div>
 יציאה: `\q`
 
 ---
@@ -264,6 +366,8 @@ SELECT validation_error, SUM(event_count) FROM invalid_events_minute GROUP BY 1 
 תיעוד אינטראקטיבי: **http://localhost:8000/docs** (אפשר ללחוץ "Try it out").
 
 מהטרמינל:
+<div dir="ltr">
+
 ```bash
 curl -s localhost:8000/health
 curl -s localhost:8000/api/v1/summary
@@ -272,24 +376,36 @@ curl -s "localhost:8000/api/v1/timeseries?minutes=15"
 curl -s "localhost:8000/api/v1/suspicious?limit=5"
 curl -s -o /dev/null -w "%{http_code}\n" localhost:8000/api/v1/campaigns/cmp_999   # 404
 ```
+
+</div>
 פלט אמיתי:
+<div dir="ltr">
+
 ```json
 {"status":"ok","database":true}
 {"impressions":16735,"clicks":1102,"conversions":39,"spend_usd":619.78,"revenue_usd":3391.49,"ctr_pct":6.59,"conversion_rate_pct":3.54,...}
 ```
 
+</div>
+
 ---
 
 ## 12. עבודת ה-Batch (דירוג publishers)
 
+<div dir="ltr">
+
 ```bash
 docker compose run --rm spark-batch
 ```
+
+</div>
 צפוי: טבלה עם `rank_in_campaign` ובסוף `Wrote 48 publisher ranking rows to PostgreSQL`. התוצאה מופיעה בדשבורד בעמוד Publishers.
 
 ---
 
 ## 13. הרצת הבדיקות האוטומטיות
+
+<div dir="ltr">
 
 ```bash
 python -m venv .venv && source .venv/bin/activate      # Windows PowerShell: .venv\Scripts\Activate.ps1
@@ -298,6 +414,8 @@ pytest tests/unit -q                                   # צפוי: 59 passed
 docker compose run --rm --no-deps spark-streaming python3 -m pytest tests/spark -q -p no:cacheprovider   # 8 passed
 pytest -m integration tests/integration -v             # 7 passed (המערכת צריכה לרוץ)
 ```
+
+</div>
 
 ---
 
@@ -328,18 +446,28 @@ pytest -m integration tests/integration -v             # 7 passed (המערכת 
 | אחרי שינוי קוד לא רואים שינוי | האימג' ישן | `docker compose up -d --build <service>` |
 
 פקודות דיבאג שימושיות:
+<div dir="ltr">
+
 ```bash
 docker compose logs --tail=50 <service>     # לוגים של שירות
 docker exec -it adpulse-postgres sh         # להיכנס לקונטיינר
 docker stats                                # כמה CPU/זיכרון כל קונטיינר צורך
 ```
 
+</div>
+
 ---
 
 ## 16. מצב דמו (בלי Docker)
+
+<div dir="ltr">
 
 ```bash
 pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
+
+</div>
 הדשבורד ייפתח עם snapshot סינתטי שיוצא מהרצה אמיתית של המערכת – זה מה שמשמש לדמו ציבורי (ראו `PORTFOLIO_DEPLOYMENT_HE.md`).
+
+</div>

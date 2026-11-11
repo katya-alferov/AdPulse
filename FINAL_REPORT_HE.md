@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # 📋 דוח סופי – AdPulse
 
 תאריך: 10 בנובמבר 2026 · נבנה ונבדק בסביבת sandbox בענן (Linux, 4 ליבות, 15GB RAM, Docker 29.9) – **לא** על המחשב שלך.
@@ -39,11 +41,15 @@
 Python 3.11 · Apache Kafka 3.9.1 (KRaft) · Apache Spark 3.5.7 / PySpark · SeaweedFS 4.53 (S3 API, Apache-2.0) · PostgreSQL 16 · FastAPI 0.115 · Streamlit 1.40 · Plotly · confluent-kafka 2.6.1 · boto3 · pyarrow · psycopg 3 · Docker / Docker Compose · pytest · python-pptx · Git
 
 ## 4. איך מריצים
+<div dir="ltr">
+
 ```bash
 cp .env.example .env      # ולשנות סיסמאות
 docker compose up -d --build
 # אחרי ~2 דקות: http://localhost:8501 (דשבורד) · http://localhost:8000/docs (API) · http://localhost:4040 (Spark UI)
 ```
+
+</div>
 פירוט מלא: `RUN_PROJECT_HE.md`.
 
 ## 5. מה לא הושלם / מגבלות (בכנות)
@@ -78,3 +84,5 @@ docker compose up -d --build
 2. להתקין Docker Desktop ולהריץ את המערכת אצלך (`RUN_PROJECT_HE.md`).
 3. להחליט אם ואיך לפרסם פורטפוליו ודמו (`PORTFOLIO_DEPLOYMENT_HE.md`) – ולאשר לי במפורש.
 4. לעבור על `INTERVIEW_PREPARATION_HE.md` ולתרגל את ה-pitch בקול.
+
+</div>

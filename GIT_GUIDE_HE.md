@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # 🗂️ מדריך Git ו-GitHub – גיבוי AdPulse
 
 ## 1. מושגים, בפשטות
@@ -46,28 +48,42 @@
 5. Create repository.
 
 אחרי זה אני יכולה לחבר את ה-repo ולדחוף מכאן. או – מהמחשב שלך, מתוך תיקיית הפרויקט:
+<div dir="ltr">
+
 ```bash
 git remote add origin https://github.com/katya-alferov/AdPulse.git
 git push -u origin main
 ```
+
+</div>
 (`-u` = "זכור ש-main שלי קשור ל-main ב-GitHub", כדי שבפעם הבאה יספיק `git push`.)
 
 ### אפשרות ב' – עם GitHub CLI מהמחשב שלך
+<div dir="ltr">
+
 ```bash
 gh auth login                          # פעם אחת: GitHub.com → HTTPS → Login with a web browser
 gh repo create AdPulse --private --source=. --remote=origin --push
 ```
 
+</div>
+
 ### אימות שהגיבוי הצליח
+<div dir="ltr">
+
 ```bash
 git remote -v                          # צריך להראות origin → github.com/katya-alferov/AdPulse
 git status                             # "Your branch is up to date with 'origin/main'"
 git log --oneline origin/main | head   # אותם commits כמו מקומית
 gh repo view katya-alferov/AdPulse --json visibility -q .visibility   # PRIVATE
 ```
+
+</div>
 ובאתר: ודאי שרואים את `README.md`, `docker-compose.yml`, `src/`, `spark_jobs/` – ושאין `.env`.
 
 ## 4. עבודה יומיומית
+<div dir="ltr">
+
 ```bash
 git status                        # מה השתנה?
 git diff                          # מה בדיוק השתנה?
@@ -75,9 +91,13 @@ git add src/adpulse/metrics.py    # בחרי קבצים (או: git add -A לכל
 git commit -m "Add ROAS to campaign summary"
 git push
 ```
+
+</div>
 הודעת commit טובה: פועל בהווה + מה ולמה. ✅ `Fix CTR division by zero for new campaigns` ❌ `fix`, `changes`, `asdf`.
 
 ### לנסות רעיון בענף נפרד
+<div dir="ltr">
+
 ```bash
 git switch -c feature/sliding-window-fraud   # ענף חדש
 # ...עבודה + commits...
@@ -85,6 +105,8 @@ git push -u origin feature/sliding-window-fraud
 # ב-GitHub: Pull Request → Merge
 git switch main && git pull
 ```
+
+</div>
 
 ## 5. כללי בטיחות (קדושים!)
 1. **לעולם לא** להכניס `.env`, סיסמאות, מפתחות AWS. לפני commit: `git status` – אם רואים `.env` → עצרי.
@@ -99,3 +121,5 @@ git switch main && git pull
 | `Authentication failed` / בקשת סיסמה | GitHub לא מקבל סיסמה רגילה – `gh auth login` או Personal Access Token |
 | `rejected ... fetch first` | יש ב-GitHub commits שאין אצלך: `git pull --rebase` ואז `git push` |
 | `src refspec main does not match any` | עוד אין commits, או שהענף נקרא `master`: `git branch -M main` |
+
+</div>

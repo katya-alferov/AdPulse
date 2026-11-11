@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # 🎯 הכנה לראיון טלפוני – Software Engineer Intern
 
 > **כלל הכנות (הכי חשוב בכל המסמך):** אל תגידי שיש לך ניסיון מקצועי ב-Kafka/Spark/Docker. תגידי את האמת – והאמת חזקה:
@@ -248,24 +250,34 @@ S3 (data lake), MSK (Kafka), EMR/Glue (Spark), RDS (Postgres), ECS Fargate (API/
 ## חלק 4: אלגוריתמים ומבני נתונים (קשור לפרויקט)
 
 **א. מצאי את 3 הקמפיינים עם הכי הרבה קליקים מתוך מיליון אירועים.**
+<div dir="ltr">
+
 ```python
 from collections import Counter
 import heapq
 counts = Counter(e["campaign_id"] for e in events if e["event_type"] == "click")   # O(n)
 top3 = heapq.nlargest(3, counts.items(), key=lambda kv: kv[1])                     # O(k log 3)
 ```
+
+</div>
 או פשוט `counts.most_common(3)`. 🎯 hash map + heap, לא מיון של הכול (O(n log n)).
 
 **ב. הסירי כפילויות לפי event_id ושמרי סדר.**
+<div dir="ltr">
+
 ```python
 seen, result = set(), []
 for e in events:
     if e["event_id"] not in seen:
         seen.add(e["event_id"]); result.append(e)
 ```
+
+</div>
 O(n) זמן, O(n) זיכרון. שאלת המשך: "ומה אם זה זרם אינסופי?" → לזכור רק בחלון זמן (בדיוק מה ש-watermark עושה), או Bloom filter (חוסך זיכרון, false positives אפשריים).
 
 **ג. זהי משתמש עם ≥ 8 קליקים בכל חלון של 60 שניות (sliding).**
+<div dir="ltr">
+
 ```python
 from collections import defaultdict, deque
 recent = defaultdict(deque)
@@ -274,6 +286,8 @@ def on_click(user, ts):
     while q and q[0] <= ts - 60: q.popleft()
     return len(q) >= 8
 ```
+
+</div>
 deque כ-sliding window, O(1) amortized. (ב-AdPulse השתמשתי ב-tumbling window – פשוט יותר; sliding תופס גם burst שחוצה גבול דקה.)
 
 **ד. מזגי שתי רשימות ממוינות של אירועים לפי זמן** – two pointers, O(n+m). (כמו מה ש-Kafka consumer עושה כשקורא מכמה partitions.)
@@ -354,3 +368,5 @@ checkpoint לא נשמר (אין volume?) → קרא מ-earliest מחדש; sink 
 - [ ] אני יודעת לספר על הבאג של S3 rename ואיך פתרתי.
 - [ ] אני יודעת להגיד בכנות מה למדתי בפרויקט ומה מהעבודה.
 - [ ] הרצתי את הפרויקט בעצמי לפחות פעם אחת והסתכלתי על Spark UI.
+
+</div>

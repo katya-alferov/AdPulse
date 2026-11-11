@@ -10,6 +10,7 @@ Numbers on the charts come from demo_data/ (a real run of the pipeline).
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 from pptx import Presentation
@@ -46,6 +47,20 @@ def load(name: str):
 
 
 # --------------------------------------------------------------------------- helpers
+_HEB = re.compile("[\u0590-\u05FF]")
+RLI, PDI = "\u2067", "\u2069"
+
+
+def iso(value: str) -> str:
+    """Wrap Hebrew text in a right-to-left isolate (RLI ... PDI).
+
+    Viewers that ignore the paragraph's rtl flag would otherwise start a line that
+    begins with an English term (e.g. "Kafka ...") left-to-right and scramble it."""
+    if not _HEB.search(value):
+        return value
+    return "\n".join(RLI + line + PDI if _HEB.search(line) else line for line in value.split("\n"))
+
+
 def _rtl(paragraph, rtl: bool) -> None:
     p_pr = paragraph._p.get_or_add_pPr()
     if rtl:
@@ -68,7 +83,10 @@ def text(slide, x, y, w, h, runs, size=16, color=TEXT, bold=False, align="r", rt
         p.alignment = {"r": PP_ALIGN.RIGHT, "l": PP_ALIGN.LEFT, "c": PP_ALIGN.CENTER}[align]
         p.line_spacing = line_spacing
         _rtl(p, rtl)
-        parts = [(para, {})] if isinstance(para, str) else para
+        parts = [(para, {})] if isinstance(para, str) else list(para)
+        if rtl and _HEB.search("".join(t for t, _ in parts)):
+            parts[0] = (RLI + parts[0][0], parts[0][1])
+            parts[-1] = (parts[-1][0] + PDI, parts[-1][1])
         for part, opts in parts:
             r = p.add_run()
             r.text = part
@@ -127,13 +145,15 @@ def node(slide, x, y, w, h, label, sub=None, fill=CARD2, line=BLUE, size=15):
     p = tf.paragraphs[0]
     p.alignment = PP_ALIGN.CENTER
     r = p.add_run()
-    r.text = label
+    r.text = iso(label)
+    _rtl(p, bool(_HEB.search(label)))
     r.font.name, r.font.size, r.font.bold, r.font.color.rgb = FONT, Pt(size), True, TEXT
     if sub:
         p2 = tf.add_paragraph()
         p2.alignment = PP_ALIGN.CENTER
         r2 = p2.add_run()
-        r2.text = sub
+        r2.text = iso(sub)
+        _rtl(p2, bool(_HEB.search(sub)))
         r2.font.name, r2.font.size, r2.font.color.rgb = FONT, Pt(size - 4), MUTED
     return s
 
@@ -184,7 +204,7 @@ def table(slide, x, y, w, rows, col_widths, header_fill=CARD2, size=13, row_h=0.
             p.alignment = PP_ALIGN.RIGHT if rtl else PP_ALIGN.LEFT
             _rtl(p, rtl)
             r = p.add_run()
-            r.text = str(value)
+            r.text = iso(str(value)) if rtl else str(value)
             r.font.name, r.font.size = FONT, Pt(size)
             r.font.bold = i == 0
             r.font.color.rgb = TEXT if i == 0 else MUTED
@@ -218,7 +238,10 @@ class Deck:
              align="l", rtl=False)
         text(s, Inches(9.9), Inches(7.0), Inches(3.0), Inches(0.35), "AdPulse · פרויקט לימודי אישי", size=11,
              color=MUTED)
-        s.notes_slide.notes_text_frame.text = notes
+        s.notes_slide.notes_text_frame.text = iso(notes)
+        for p in s.notes_slide.notes_text_frame.paragraphs:
+            _rtl(p, True)
+            p.alignment = PP_ALIGN.RIGHT
         return s
 
     def save(self) -> None:
@@ -256,7 +279,7 @@ def build() -> None:
         p = tf.paragraphs[0]
         p.alignment = PP_ALIGN.CENTER
         r = p.add_run()
-        r.text = chip
+        r.text = iso(chip)
         r.font.name, r.font.size, r.font.color.rgb, r.font.bold = FONT, Pt(13), TEXT, True
         x -= Inches(0.15)
     text(s, Inches(0.8), Inches(6.1), Inches(11.7), Inches(0.5),

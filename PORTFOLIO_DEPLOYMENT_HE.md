@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # 🌍 פורטפוליו ציבורי ודמו חי – תוכנית חינמית
 
 > **שום דבר לא פורסם.** המאגר פרטי, ואין דמו באוויר. כל צעד ציבורי כאן מחכה לאישור המפורש שלך.
@@ -33,6 +35,8 @@
 
 ## 3. הארכיטקטורה של הדמו
 
+<div dir="ltr">
+
 ```
   ┌─────────────────── אצלך במחשב (Docker) ────────────────────┐
   │ Generator → Kafka → Spark → Postgres/S3 → FastAPI           │
@@ -49,6 +53,8 @@
         Streamlit Community Cloud מריץ streamlit_app.py
         → אותו קוד דשבורד, ADPULSE_MODE=demo, קורא את ה-JSON
 ```
+
+</div>
 
 - **אותו קוד דשבורד בדיוק.** ההבדל היחיד: מקור הנתונים (`DemoDataSource` במקום `AdPulseClient`).
 - **ה-backend לא נחשף.** אין חיבור מהאינטרנט למחשב שלך – אין פתיחת פורטים, אין tunnel. הנתונים מגיעים מקובץ סטטי.
@@ -87,12 +93,16 @@ GitHub → AdPulse → Settings → General → Danger Zone → Change visibilit
 6. אין צורך ב-Secrets – הדמו לא מתחבר לשום דבר.
 
 **ג. לעדכן את ה-snapshot מדי פעם:**
+<div dir="ltr">
+
 ```bash
 docker compose up -d --build        # להריץ את המערכת המלאה ~15 דקות
 docker compose run --rm spark-batch
 python tools/export_demo_data.py --api http://localhost:8000 --out demo_data
 git add demo_data && git commit -m "Refresh demo snapshot" && git push   # Streamlit Cloud מתעדכן לבד
 ```
+
+</div>
 
 **ד. להוסיף ל-README את הקישור:**
 `**Live demo:** https://<your-app>.streamlit.app (synthetic snapshot – see "Dashboard demo mode")`
@@ -103,3 +113,5 @@ git add demo_data && git commit -m "Refresh demo snapshot" && git push   # Strea
 
 ## 8. איך מגייס מריץ את המערכת המלאה
 מופיע ב-README תחת "Quick start" – שלוש פקודות: `git clone`, `cp .env.example .env`, `docker compose up -d --build`. אחרי ~2 דקות: http://localhost:8501.
+
+</div>
